@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Not Your Buddy</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Manrope:wght@400;600&display=swap" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="logo-mark">🙅‍♂️</div>
+        <div class="title-block">
+          <h1>Not Your Buddy</h1>
+          <p class="tagline">How long can you keep the banter loop alive?</p>
+        </div>
+        <div class="scorecard" id="scorecard">Score: <span id="score">0</span></div>
+      </header>
+      <main class="chat-window" id="chat-window">
+        <div class="message bot">
+          <div class="bubble">Drop a greeting or flex a nickname. I dare you.</div>
+          <div class="meta">bot • ready to clap back</div>
+        </div>
+      </main>
+      <form class="composer" id="composer">
+        <input
+          id="chat-input"
+          type="text"
+          name="message"
+          autocomplete="off"
+          placeholder="Try &quot;hey bro&quot; or &quot;im not yo buddy, pal&quot;"
+          aria-label="Type a nickname"
+        />
+        <button type="submit">Send</button>
+      </form>
+      <footer class="app-footer">
+        <span>Need intel? Try typing <code>::list</code> or <code>::reset</code>.</span>
+        <span class="domain-ideas">Domain vibes: <strong>notyourbuddy.com</strong>, <strong>notyobro.com</strong>, <strong>brobot.chat</strong></span>
+      </footer>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+  </body>
+</html>

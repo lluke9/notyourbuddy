@@ -23,8 +23,21 @@ class WordEntry:
     normalized: str
 
 
+UNICODE_NORMALIZERS = str.maketrans({
+    "’": "'",
+    "‘": "'",
+    "“": '"',
+    "”": '"',
+    "–": "-",
+    "—": "-",
+    "‑": "-",
+    "‒": "-",
+})
+
+
 def normalize_term(term: str) -> str:
-    cleaned = re.sub(r"[^a-z0-9]+", " ", term.lower())
+    ascii_term = term.translate(UNICODE_NORMALIZERS)
+    cleaned = re.sub(r"[^a-z0-9]+", " ", ascii_term.lower())
     return re.sub(r"\s+", " ", cleaned).strip()
 
 

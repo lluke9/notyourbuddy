@@ -1,0 +1,4836 @@
+{
+  "words": [
+    {
+      "term": "bro",
+      "rank": 1
+    },
+    {
+      "term": "buddy",
+      "rank": 2
+    },
+    {
+      "term": "pal",
+      "rank": 3
+    },
+    {
+      "term": "dude",
+      "rank": 4
+    },
+    {
+      "term": "friend",
+      "rank": 5
+    },
+    {
+      "term": "dog",
+      "rank": 6
+    },
+    {
+      "term": "dawg",
+      "rank": 7
+    },
+    {
+      "term": "homie",
+      "rank": 8
+    },
+    {
+      "term": "fam",
+      "rank": 9
+    },
+    {
+      "term": "mate",
+      "rank": 10
+    },
+    {
+      "term": "chief",
+      "rank": 11
+    },
+    {
+      "term": "champ",
+      "rank": 12
+    },
+    {
+      "term": "boss",
+      "rank": 13
+    },
+    {
+      "term": "partner",
+      "rank": 14
+    },
+    {
+      "term": "cuz",
+      "rank": 15
+    },
+    {
+      "term": "sis",
+      "rank": 16
+    },
+    {
+      "term": "bruh",
+      "rank": 17
+    },
+    {
+      "term": "amigo",
+      "rank": 18
+    },
+    {
+      "term": "ally",
+      "rank": 19
+    },
+    {
+      "term": "ace",
+      "rank": 20
+    },
+    {
+      "term": "homeslice",
+      "rank": 21
+    },
+    {
+      "term": "homeboy",
+      "rank": 22
+    },
+    {
+      "term": "homegirl",
+      "rank": 23
+    },
+    {
+      "term": "bestie",
+      "rank": 24
+    },
+    {
+      "term": "companion",
+      "rank": 25
+    },
+    {
+      "term": "wingman",
+      "rank": 26
+    },
+    {
+      "term": "wingwoman",
+      "rank": 27
+    },
+    {
+      "term": "teammate",
+      "rank": 28
+    },
+    {
+      "term": "brother",
+      "rank": 29
+    },
+    {
+      "term": "sister",
+      "rank": 30
+    },
+    {
+      "term": "bud",
+      "rank": 31
+    },
+    {
+      "term": "g",
+      "rank": 32
+    },
+    {
+      "term": "big-bro",
+      "rank": 33
+    },
+    {
+      "term": "big-sis",
+      "rank": 34
+    },
+    {
+      "term": "little-bro",
+      "rank": 35
+    },
+    {
+      "term": "little-sis",
+      "rank": 36
+    },
+    {
+      "term": "buster",
+      "rank": 37
+    },
+    {
+      "term": "sport",
+      "rank": 38
+    },
+    {
+      "term": "slugger",
+      "rank": 39
+    },
+    {
+      "term": "cowboy",
+      "rank": 40
+    },
+    {
+      "term": "cowgirl",
+      "rank": 41
+    },
+    {
+      "term": "bucko",
+      "rank": 42
+    },
+    {
+      "term": "sunshine",
+      "rank": 43
+    },
+    {
+      "term": "amiga",
+      "rank": 44
+    },
+    {
+      "term": "homey",
+      "rank": 45
+    },
+    {
+      "term": "neighbor",
+      "rank": 46
+    },
+    {
+      "term": "compadre",
+      "rank": 47
+    },
+    {
+      "term": "paladin",
+      "rank": 48
+    },
+    {
+      "term": "player",
+      "rank": 49
+    },
+    {
+      "term": "captain",
+      "rank": 50
+    },
+    {
+      "term": "skipper",
+      "rank": 51
+    },
+    {
+      "term": "sarge",
+      "rank": 52
+    },
+    {
+      "term": "bossman",
+      "rank": 53
+    },
+    {
+      "term": "bosslady",
+      "rank": 54
+    },
+    {
+      "term": "buddyboy",
+      "rank": 55
+    },
+    {
+      "term": "buddygal",
+      "rank": 56
+    },
+    {
+      "term": "main-man",
+      "rank": 57
+    },
+    {
+      "term": "main-girl",
+      "rank": 58
+    },
+    {
+      "term": "main-squeeze",
+      "rank": 59
+    },
+    {
+      "term": "ride-or-die",
+      "rank": 60
+    },
+    {
+      "term": "day-one",
+      "rank": 61
+    },
+    {
+      "term": "og",
+      "rank": 62
+    },
+    {
+      "term": "bruv",
+      "rank": 63
+    },
+    {
+      "term": "shawty",
+      "rank": 64
+    },
+    {
+      "term": "playa",
+      "rank": 65
+    },
+    {
+      "term": "migo",
+      "rank": 66
+    },
+    {
+      "term": "cohort",
+      "rank": 67
+    },
+    {
+      "term": "co-pilot",
+      "rank": 68
+    },
+    {
+      "term": "pardner",
+      "rank": 69
+    },
+    {
+      "term": "main-bro",
+      "rank": 70
+    },
+    {
+      "term": "main-sis",
+      "rank": 71
+    },
+    {
+      "term": "partner-in-fun",
+      "rank": 72
+    },
+    {
+      "term": "ace-pal",
+      "rank": 73
+    },
+    {
+      "term": "best-pal",
+      "rank": 74
+    },
+    {
+      "term": "best-buddy",
+      "rank": 75
+    },
+    {
+      "term": "best-friend",
+      "rank": 76
+    },
+    {
+      "term": "dear-friend",
+      "rank": 77
+    },
+    {
+      "term": "dear-pal",
+      "rank": 78
+    },
+    {
+      "term": "good-buddy",
+      "rank": 79
+    },
+    {
+      "term": "good-pal",
+      "rank": 80
+    },
+    {
+      "term": "good-friend",
+      "rank": 81
+    },
+    {
+      "term": "dear-mate",
+      "rank": 82
+    },
+    {
+      "term": "pal-o-mine",
+      "rank": 83
+    },
+    {
+      "term": "pal-of-mine",
+      "rank": 84
+    },
+    {
+      "term": "top-friend",
+      "rank": 85
+    },
+    {
+      "term": "top-pal",
+      "rank": 86
+    },
+    {
+      "term": "number-one-pal",
+      "rank": 87
+    },
+    {
+      "term": "number-one-buddy",
+      "rank": 88
+    },
+    {
+      "term": "pal-for-life",
+      "rank": 89
+    },
+    {
+      "term": "buddy-for-life",
+      "rank": 90
+    },
+    {
+      "term": "friend-for-life",
+      "rank": 91
+    },
+    {
+      "term": "day-one-homie",
+      "rank": 92
+    },
+    {
+      "term": "ride-or-die-pal",
+      "rank": 93
+    },
+    {
+      "term": "ride-or-die-buddy",
+      "rank": 94
+    },
+    {
+      "term": "ride-or-die-bro",
+      "rank": 95
+    },
+    {
+      "term": "ride-or-die-sis",
+      "rank": 96
+    },
+    {
+      "term": "ride-or-die-fam",
+      "rank": 97
+    },
+    {
+      "term": "ride-or-die-friend",
+      "rank": 98
+    },
+    {
+      "term": "ride-or-die-mate",
+      "rank": 99
+    },
+    {
+      "term": "go-to-pal",
+      "rank": 100
+    },
+    {
+      "term": "go-to-buddy",
+      "rank": 101
+    },
+    {
+      "term": "go-to-bro",
+      "rank": 102
+    },
+    {
+      "term": "go-to-sis",
+      "rank": 103
+    },
+    {
+      "term": "ace-buddy",
+      "rank": 104
+    },
+    {
+      "term": "ace-bro",
+      "rank": 105
+    },
+    {
+      "term": "ace-mate",
+      "rank": 106
+    },
+    {
+      "term": "ace-friend",
+      "rank": 107
+    },
+    {
+      "term": "home-slice",
+      "rank": 108
+    },
+    {
+      "term": "home-skillet",
+      "rank": 109
+    },
+    {
+      "term": "homes",
+      "rank": 110
+    },
+    {
+      "term": "homesy",
+      "rank": 111
+    },
+    {
+      "term": "homefry",
+      "rank": 112
+    },
+    {
+      "term": "homefries",
+      "rank": 113
+    },
+    {
+      "term": "homechamp",
+      "rank": 114
+    },
+    {
+      "term": "homechief",
+      "rank": 115
+    },
+    {
+      "term": "homebuddy",
+      "rank": 116
+    },
+    {
+      "term": "homefam",
+      "rank": 117
+    },
+    {
+      "term": "homebase-pal",
+      "rank": 118
+    },
+    {
+      "term": "home-base-buddy",
+      "rank": 119
+    },
+    {
+      "term": "home-team-pal",
+      "rank": 120
+    },
+    {
+      "term": "home-team-buddy",
+      "rank": 121
+    },
+    {
+      "term": "crew-mate",
+      "rank": 122
+    },
+    {
+      "term": "crew-buddy",
+      "rank": 123
+    },
+    {
+      "term": "squad-mate",
+      "rank": 124
+    },
+    {
+      "term": "squad-buddy",
+      "rank": 125
+    },
+    {
+      "term": "squad-pal",
+      "rank": 126
+    },
+    {
+      "term": "squad-fam",
+      "rank": 127
+    },
+    {
+      "term": "squad-bro",
+      "rank": 128
+    },
+    {
+      "term": "squad-sis",
+      "rank": 129
+    },
+    {
+      "term": "squad-chief",
+      "rank": 130
+    },
+    {
+      "term": "team-captain",
+      "rank": 131
+    },
+    {
+      "term": "team-ace",
+      "rank": 132
+    },
+    {
+      "term": "team-pal",
+      "rank": 133
+    },
+    {
+      "term": "team-buddy",
+      "rank": 134
+    },
+    {
+      "term": "team-bro",
+      "rank": 135
+    },
+    {
+      "term": "team-sis",
+      "rank": 136
+    },
+    {
+      "term": "team-champ",
+      "rank": 137
+    },
+    {
+      "term": "hype-man",
+      "rank": 138
+    },
+    {
+      "term": "hype-woman",
+      "rank": 139
+    },
+    {
+      "term": "day-one-bro",
+      "rank": 140
+    },
+    {
+      "term": "day-one-sis",
+      "rank": 141
+    },
+    {
+      "term": "day-one-pal",
+      "rank": 142
+    },
+    {
+      "term": "ridealong-buddy",
+      "rank": 143
+    },
+    {
+      "term": "ridealong-pal",
+      "rank": 144
+    },
+    {
+      "term": "road-dog",
+      "rank": 145
+    },
+    {
+      "term": "road-dawg",
+      "rank": 146
+    },
+    {
+      "term": "road-pal",
+      "rank": 147
+    },
+    {
+      "term": "road-buddy",
+      "rank": 148
+    },
+    {
+      "term": "road-bro",
+      "rank": 149
+    },
+    {
+      "term": "road-sis",
+      "rank": 150
+    },
+    {
+      "term": "road-homie",
+      "rank": 151
+    },
+    {
+      "term": "travel-buddy",
+      "rank": 152
+    },
+    {
+      "term": "travel-pal",
+      "rank": 153
+    },
+    {
+      "term": "travel-mate",
+      "rank": 154
+    },
+    {
+      "term": "travel-homie",
+      "rank": 155
+    },
+    {
+      "term": "travel-fam",
+      "rank": 156
+    },
+    {
+      "term": "travel-friend",
+      "rank": 157
+    },
+    {
+      "term": "trip-buddy",
+      "rank": 158
+    },
+    {
+      "term": "trip-pal",
+      "rank": 159
+    },
+    {
+      "term": "wing-pal",
+      "rank": 160
+    },
+    {
+      "term": "wing-buddy",
+      "rank": 161
+    },
+    {
+      "term": "wing-bro",
+      "rank": 162
+    },
+    {
+      "term": "wing-sis",
+      "rank": 163
+    },
+    {
+      "term": "wing-homie",
+      "rank": 164
+    },
+    {
+      "term": "wing-champ",
+      "rank": 165
+    },
+    {
+      "term": "wing-ace",
+      "rank": 166
+    },
+    {
+      "term": "wing-chief",
+      "rank": 167
+    },
+    {
+      "term": "wing-captain",
+      "rank": 168
+    },
+    {
+      "term": "wing-general",
+      "rank": 169
+    },
+    {
+      "term": "wing-guardian",
+      "rank": 170
+    },
+    {
+      "term": "wing-paladin",
+      "rank": 171
+    },
+    {
+      "term": "wing-protector",
+      "rank": 172
+    },
+    {
+      "term": "wing-ranger",
+      "rank": 173
+    },
+    {
+      "term": "wing-scout",
+      "rank": 174
+    },
+    {
+      "term": "wing-ally",
+      "rank": 175
+    },
+    {
+      "term": "wing-companion",
+      "rank": 176
+    },
+    {
+      "term": "wing-cohort",
+      "rank": 177
+    },
+    {
+      "term": "wing-partner",
+      "rank": 178
+    },
+    {
+      "term": "best-mate",
+      "rank": 179
+    },
+    {
+      "term": "best-homie",
+      "rank": 180
+    },
+    {
+      "term": "best-fam",
+      "rank": 181
+    },
+    {
+      "term": "best-bro",
+      "rank": 182
+    },
+    {
+      "term": "best-sis",
+      "rank": 183
+    },
+    {
+      "term": "best-compa",
+      "rank": 184
+    },
+    {
+      "term": "favorite-buddy",
+      "rank": 185
+    },
+    {
+      "term": "favorite-pal",
+      "rank": 186
+    },
+    {
+      "term": "favorite-bro",
+      "rank": 187
+    },
+    {
+      "term": "favorite-sis",
+      "rank": 188
+    },
+    {
+      "term": "favorite-friend",
+      "rank": 189
+    },
+    {
+      "term": "favorite-homie",
+      "rank": 190
+    },
+    {
+      "term": "favorite-mate",
+      "rank": 191
+    },
+    {
+      "term": "favorite-champ",
+      "rank": 192
+    },
+    {
+      "term": "favorite-chief",
+      "rank": 193
+    },
+    {
+      "term": "top-homie",
+      "rank": 194
+    },
+    {
+      "term": "top-buddy",
+      "rank": 195
+    },
+    {
+      "term": "top-mate",
+      "rank": 196
+    },
+    {
+      "term": "top-amigo",
+      "rank": 197
+    },
+    {
+      "term": "number-one-amigo",
+      "rank": 198
+    },
+    {
+      "term": "number-one-homie",
+      "rank": 199
+    },
+    {
+      "term": "number-one-mate",
+      "rank": 200
+    },
+    {
+      "term": "number-one-champ",
+      "rank": 201
+    },
+    {
+      "term": "number-one-chief",
+      "rank": 202
+    },
+    {
+      "term": "inner-circle-pal",
+      "rank": 203
+    },
+    {
+      "term": "inner-circle-buddy",
+      "rank": 204
+    },
+    {
+      "term": "inner-circle-friend",
+      "rank": 205
+    },
+    {
+      "term": "inner-circle-homie",
+      "rank": 206
+    },
+    {
+      "term": "inner-circle-mate",
+      "rank": 207
+    },
+    {
+      "term": "a-team-buddy",
+      "rank": 208
+    },
+    {
+      "term": "a-team-pal",
+      "rank": 209
+    },
+    {
+      "term": "a-team-bro",
+      "rank": 210
+    },
+    {
+      "term": "a-team-sis",
+      "rank": 211
+    },
+    {
+      "term": "a-team-friend",
+      "rank": 212
+    },
+    {
+      "term": "a-team-mate",
+      "rank": 213
+    },
+    {
+      "term": "ride-buddy",
+      "rank": 214
+    },
+    {
+      "term": "ride-pal",
+      "rank": 215
+    },
+    {
+      "term": "ride-bro",
+      "rank": 216
+    },
+    {
+      "term": "ride-sis",
+      "rank": 217
+    },
+    {
+      "term": "ride-friend",
+      "rank": 218
+    },
+    {
+      "term": "ride-mate",
+      "rank": 219
+    },
+    {
+      "term": "broseph",
+      "rank": 220
+    },
+    {
+      "term": "brosephine",
+      "rank": 221
+    },
+    {
+      "term": "broseidon",
+      "rank": 222
+    },
+    {
+      "term": "brometheus",
+      "rank": 223
+    },
+    {
+      "term": "bromigo",
+      "rank": 224
+    },
+    {
+      "term": "bromancer",
+      "rank": 225
+    },
+    {
+      "term": "brotagonist",
+      "rank": 226
+    },
+    {
+      "term": "brofessor",
+      "rank": 227
+    },
+    {
+      "term": "brogrammer",
+      "rank": 228
+    },
+    {
+      "term": "brofessional",
+      "rank": 229
+    },
+    {
+      "term": "brotato",
+      "rank": 230
+    },
+    {
+      "term": "brotastic",
+      "rank": 231
+    },
+    {
+      "term": "brocean",
+      "rank": 232
+    },
+    {
+      "term": "broheim",
+      "rank": 233
+    },
+    {
+      "term": "broham",
+      "rank": 234
+    },
+    {
+      "term": "broski",
+      "rank": 235
+    },
+    {
+      "term": "broskiii",
+      "rank": 236
+    },
+    {
+      "term": "broskie",
+      "rank": 237
+    },
+    {
+      "term": "brosaurus",
+      "rank": 238
+    },
+    {
+      "term": "brozilla",
+      "rank": 239
+    },
+    {
+      "term": "brozilla-jr",
+      "rank": 240
+    },
+    {
+      "term": "brozilla-sr",
+      "rank": 241
+    },
+    {
+      "term": "brotron",
+      "rank": 242
+    },
+    {
+      "term": "brobot",
+      "rank": 243
+    },
+    {
+      "term": "brobotic",
+      "rank": 244
+    },
+    {
+      "term": "brobotron",
+      "rank": 245
+    },
+    {
+      "term": "broforce",
+      "rank": 246
+    },
+    {
+      "term": "brozone",
+      "rank": 247
+    },
+    {
+      "term": "brozone-layer",
+      "rank": 248
+    },
+    {
+      "term": "brozone-buddy",
+      "rank": 249
+    },
+    {
+      "term": "brozone-pal",
+      "rank": 250
+    },
+    {
+      "term": "brozone-bro",
+      "rank": 251
+    },
+    {
+      "term": "brozone-sis",
+      "rank": 252
+    },
+    {
+      "term": "brosicle",
+      "rank": 253
+    },
+    {
+      "term": "broberry",
+      "rank": 254
+    },
+    {
+      "term": "brobean",
+      "rank": 255
+    },
+    {
+      "term": "brobeans",
+      "rank": 256
+    },
+    {
+      "term": "broccoli",
+      "rank": 257
+    },
+    {
+      "term": "broccolini",
+      "rank": 258
+    },
+    {
+      "term": "broccolisaurus",
+      "rank": 259
+    },
+    {
+      "term": "broccolibro",
+      "rank": 260
+    },
+    {
+      "term": "broccolipal",
+      "rank": 261
+    },
+    {
+      "term": "broccolibuddy",
+      "rank": 262
+    },
+    {
+      "term": "broccolimate",
+      "rank": 263
+    },
+    {
+      "term": "broccolihomie",
+      "rank": 264
+    },
+    {
+      "term": "brocade-bro",
+      "rank": 265
+    },
+    {
+      "term": "brocade-buddy",
+      "rank": 266
+    },
+    {
+      "term": "brocade-pal",
+      "rank": 267
+    },
+    {
+      "term": "bronardo",
+      "rank": 268
+    },
+    {
+      "term": "brodacious",
+      "rank": 269
+    },
+    {
+      "term": "brodigy",
+      "rank": 270
+    },
+    {
+      "term": "brodigal",
+      "rank": 271
+    },
+    {
+      "term": "brohemian",
+      "rank": 272
+    },
+    {
+      "term": "brohemian-pal",
+      "rank": 273
+    },
+    {
+      "term": "brohemian-buddy",
+      "rank": 274
+    },
+    {
+      "term": "brohemian-friend",
+      "rank": 275
+    },
+    {
+      "term": "brohemian-bro",
+      "rank": 276
+    },
+    {
+      "term": "brohemian-sis",
+      "rank": 277
+    },
+    {
+      "term": "bromade",
+      "rank": 278
+    },
+    {
+      "term": "brolette",
+      "rank": 279
+    },
+    {
+      "term": "broletariat",
+      "rank": 280
+    },
+    {
+      "term": "brogram",
+      "rank": 281
+    },
+    {
+      "term": "brogue",
+      "rank": 282
+    },
+    {
+      "term": "brojito",
+      "rank": 283
+    },
+    {
+      "term": "brojito-buddy",
+      "rank": 284
+    },
+    {
+      "term": "brojito-pal",
+      "rank": 285
+    },
+    {
+      "term": "brojito-bro",
+      "rank": 286
+    },
+    {
+      "term": "brojito-sis",
+      "rank": 287
+    },
+    {
+      "term": "brojo",
+      "rank": 288
+    },
+    {
+      "term": "brojo-buddy",
+      "rank": 289
+    },
+    {
+      "term": "brojo-pal",
+      "rank": 290
+    },
+    {
+      "term": "brojo-bro",
+      "rank": 291
+    },
+    {
+      "term": "brojo-sis",
+      "rank": 292
+    },
+    {
+      "term": "brosquad",
+      "rank": 293
+    },
+    {
+      "term": "brosquad-buddy",
+      "rank": 294
+    },
+    {
+      "term": "brosquad-pal",
+      "rank": 295
+    },
+    {
+      "term": "brosquad-bro",
+      "rank": 296
+    },
+    {
+      "term": "brosquad-sis",
+      "rank": 297
+    },
+    {
+      "term": "pumpkin",
+      "rank": 298
+    },
+    {
+      "term": "pumpkin-pie",
+      "rank": 299
+    },
+    {
+      "term": "cupcake",
+      "rank": 300
+    },
+    {
+      "term": "cupcake-buddy",
+      "rank": 301
+    },
+    {
+      "term": "cupcake-pal",
+      "rank": 302
+    },
+    {
+      "term": "cupcake-friend",
+      "rank": 303
+    },
+    {
+      "term": "sugar",
+      "rank": 304
+    },
+    {
+      "term": "sugarcube",
+      "rank": 305
+    },
+    {
+      "term": "sugarplum",
+      "rank": 306
+    },
+    {
+      "term": "sweetheart",
+      "rank": 307
+    },
+    {
+      "term": "sweet-friend",
+      "rank": 308
+    },
+    {
+      "term": "sweet-pal",
+      "rank": 309
+    },
+    {
+      "term": "sweetie",
+      "rank": 310
+    },
+    {
+      "term": "sweetie-pie",
+      "rank": 311
+    },
+    {
+      "term": "sweetie-buddy",
+      "rank": 312
+    },
+    {
+      "term": "sweetie-pal",
+      "rank": 313
+    },
+    {
+      "term": "sweet-mate",
+      "rank": 314
+    },
+    {
+      "term": "sweet-homie",
+      "rank": 315
+    },
+    {
+      "term": "sunbeam",
+      "rank": 316
+    },
+    {
+      "term": "sunflower",
+      "rank": 317
+    },
+    {
+      "term": "starlight",
+      "rank": 318
+    },
+    {
+      "term": "moonbeam",
+      "rank": 319
+    },
+    {
+      "term": "moon-buddy",
+      "rank": 320
+    },
+    {
+      "term": "moon-pal",
+      "rank": 321
+    },
+    {
+      "term": "moon-friend",
+      "rank": 322
+    },
+    {
+      "term": "star-buddy",
+      "rank": 323
+    },
+    {
+      "term": "star-pal",
+      "rank": 324
+    },
+    {
+      "term": "star-friend",
+      "rank": 325
+    },
+    {
+      "term": "starlit-pal",
+      "rank": 326
+    },
+    {
+      "term": "starlit-buddy",
+      "rank": 327
+    },
+    {
+      "term": "glow-pal",
+      "rank": 328
+    },
+    {
+      "term": "glow-buddy",
+      "rank": 329
+    },
+    {
+      "term": "spark-pal",
+      "rank": 330
+    },
+    {
+      "term": "spark-buddy",
+      "rank": 331
+    },
+    {
+      "term": "spark-friend",
+      "rank": 332
+    },
+    {
+      "term": "spark-chum",
+      "rank": 333
+    },
+    {
+      "term": "spark-mate",
+      "rank": 334
+    },
+    {
+      "term": "spark-bro",
+      "rank": 335
+    },
+    {
+      "term": "spark-sis",
+      "rank": 336
+    },
+    {
+      "term": "spark-homie",
+      "rank": 337
+    },
+    {
+      "term": "spark-partner",
+      "rank": 338
+    },
+    {
+      "term": "spark-companion",
+      "rank": 339
+    },
+    {
+      "term": "spark-ally",
+      "rank": 340
+    },
+    {
+      "term": "spark-amigo",
+      "rank": 341
+    },
+    {
+      "term": "spark-fam",
+      "rank": 342
+    },
+    {
+      "term": "spark-champion",
+      "rank": 343
+    },
+    {
+      "term": "spark-chief",
+      "rank": 344
+    },
+    {
+      "term": "spark-captain",
+      "rank": 345
+    },
+    {
+      "term": "palster",
+      "rank": 346
+    },
+    {
+      "term": "palski",
+      "rank": 347
+    },
+    {
+      "term": "palzone",
+      "rank": 348
+    },
+    {
+      "term": "palwave",
+      "rank": 349
+    },
+    {
+      "term": "paljam",
+      "rank": 350
+    },
+    {
+      "term": "palwhiz",
+      "rank": 351
+    },
+    {
+      "term": "palwhip",
+      "rank": 352
+    },
+    {
+      "term": "palpop",
+      "rank": 353
+    },
+    {
+      "term": "palpulse",
+      "rank": 354
+    },
+    {
+      "term": "palvibe",
+      "rank": 355
+    },
+    {
+      "term": "palglow",
+      "rank": 356
+    },
+    {
+      "term": "palshine",
+      "rank": 357
+    },
+    {
+      "term": "palstorm",
+      "rank": 358
+    },
+    {
+      "term": "palwind",
+      "rank": 359
+    },
+    {
+      "term": "palbeam",
+      "rank": 360
+    },
+    {
+      "term": "palblaze",
+      "rank": 361
+    },
+    {
+      "term": "palflash",
+      "rank": 362
+    },
+    {
+      "term": "palflare",
+      "rank": 363
+    },
+    {
+      "term": "palforce",
+      "rank": 364
+    },
+    {
+      "term": "palcraft",
+      "rank": 365
+    },
+    {
+      "term": "palbot",
+      "rank": 366
+    },
+    {
+      "term": "paltron",
+      "rank": 367
+    },
+    {
+      "term": "palborg",
+      "rank": 368
+    },
+    {
+      "term": "palcore",
+      "rank": 369
+    },
+    {
+      "term": "palcade",
+      "rank": 370
+    },
+    {
+      "term": "palprime",
+      "rank": 371
+    },
+    {
+      "term": "palpro",
+      "rank": 372
+    },
+    {
+      "term": "palguru",
+      "rank": 373
+    },
+    {
+      "term": "palninja",
+      "rank": 374
+    },
+    {
+      "term": "palscout",
+      "rank": 375
+    },
+    {
+      "term": "palwizard",
+      "rank": 376
+    },
+    {
+      "term": "palking",
+      "rank": 377
+    },
+    {
+      "term": "palqueen",
+      "rank": 378
+    },
+    {
+      "term": "palprince",
+      "rank": 379
+    },
+    {
+      "term": "palprincess",
+      "rank": 380
+    },
+    {
+      "term": "palhero",
+      "rank": 381
+    },
+    {
+      "term": "palchamp",
+      "rank": 382
+    },
+    {
+      "term": "palchief",
+      "rank": 383
+    },
+    {
+      "term": "palcommander",
+      "rank": 384
+    },
+    {
+      "term": "palcaptain",
+      "rank": 385
+    },
+    {
+      "term": "palgeneral",
+      "rank": 386
+    },
+    {
+      "term": "palsarge",
+      "rank": 387
+    },
+    {
+      "term": "palmarshal",
+      "rank": 388
+    },
+    {
+      "term": "paladmiral",
+      "rank": 389
+    },
+    {
+      "term": "palshaman",
+      "rank": 390
+    },
+    {
+      "term": "paloracle",
+      "rank": 391
+    },
+    {
+      "term": "palseer",
+      "rank": 392
+    },
+    {
+      "term": "palwitch",
+      "rank": 393
+    },
+    {
+      "term": "palwarrior",
+      "rank": 394
+    },
+    {
+      "term": "palranger",
+      "rank": 395
+    },
+    {
+      "term": "palguardian",
+      "rank": 396
+    },
+    {
+      "term": "palprotector",
+      "rank": 397
+    },
+    {
+      "term": "paldefender",
+      "rank": 398
+    },
+    {
+      "term": "palally",
+      "rank": 399
+    },
+    {
+      "term": "palcompanion",
+      "rank": 400
+    },
+    {
+      "term": "palpartner",
+      "rank": 401
+    },
+    {
+      "term": "palteammate",
+      "rank": 402
+    },
+    {
+      "term": "palco-pilot",
+      "rank": 403
+    },
+    {
+      "term": "palnavigator",
+      "rank": 404
+    },
+    {
+      "term": "palpilot",
+      "rank": 405
+    },
+    {
+      "term": "paldriver",
+      "rank": 406
+    },
+    {
+      "term": "palrider",
+      "rank": 407
+    },
+    {
+      "term": "palsupport",
+      "rank": 408
+    },
+    {
+      "term": "palanchor",
+      "rank": 409
+    },
+    {
+      "term": "palpillar",
+      "rank": 410
+    },
+    {
+      "term": "palrock",
+      "rank": 411
+    },
+    {
+      "term": "palshield",
+      "rank": 412
+    },
+    {
+      "term": "palbulwark",
+      "rank": 413
+    },
+    {
+      "term": "palbacker",
+      "rank": 414
+    },
+    {
+      "term": "palbooster",
+      "rank": 415
+    },
+    {
+      "term": "paladvocate",
+      "rank": 416
+    },
+    {
+      "term": "palchampion",
+      "rank": 417
+    },
+    {
+      "term": "pallegend",
+      "rank": 418
+    },
+    {
+      "term": "palicon",
+      "rank": 419
+    },
+    {
+      "term": "palidol",
+      "rank": 420
+    },
+    {
+      "term": "palstar",
+      "rank": 421
+    },
+    {
+      "term": "palplanet",
+      "rank": 422
+    },
+    {
+      "term": "palgalaxy",
+      "rank": 423
+    },
+    {
+      "term": "palnova",
+      "rank": 424
+    },
+    {
+      "term": "palcomet",
+      "rank": 425
+    },
+    {
+      "term": "palmeteor",
+      "rank": 426
+    },
+    {
+      "term": "palcosmos",
+      "rank": 427
+    },
+    {
+      "term": "palquantum",
+      "rank": 428
+    },
+    {
+      "term": "palcyber",
+      "rank": 429
+    },
+    {
+      "term": "palneon",
+      "rank": 430
+    },
+    {
+      "term": "palretro",
+      "rank": 431
+    },
+    {
+      "term": "palanalog",
+      "rank": 432
+    },
+    {
+      "term": "pallo-fi",
+      "rank": 433
+    },
+    {
+      "term": "palhi-fi",
+      "rank": 434
+    },
+    {
+      "term": "palpixel",
+      "rank": 435
+    },
+    {
+      "term": "palhologram",
+      "rank": 436
+    },
+    {
+      "term": "palrainbow",
+      "rank": 437
+    },
+    {
+      "term": "palspectrum",
+      "rank": 438
+    },
+    {
+      "term": "palprism",
+      "rank": 439
+    },
+    {
+      "term": "palglimmer",
+      "rank": 440
+    },
+    {
+      "term": "palshimmer",
+      "rank": 441
+    },
+    {
+      "term": "palglitter",
+      "rank": 442
+    },
+    {
+      "term": "palsparkle",
+      "rank": 443
+    },
+    {
+      "term": "palgleam",
+      "rank": 444
+    },
+    {
+      "term": "palglitz",
+      "rank": 445
+    },
+    {
+      "term": "palglam",
+      "rank": 446
+    },
+    {
+      "term": "loyal-buddy",
+      "rank": 447
+    },
+    {
+      "term": "loyal-pal",
+      "rank": 448
+    },
+    {
+      "term": "loyal-bro",
+      "rank": 449
+    },
+    {
+      "term": "loyal-homie",
+      "rank": 450
+    },
+    {
+      "term": "loyal-friend",
+      "rank": 451
+    },
+    {
+      "term": "loyal-mate",
+      "rank": 452
+    },
+    {
+      "term": "loyal-companion",
+      "rank": 453
+    },
+    {
+      "term": "loyal-partner",
+      "rank": 454
+    },
+    {
+      "term": "loyal-ally",
+      "rank": 455
+    },
+    {
+      "term": "loyal-ace",
+      "rank": 456
+    },
+    {
+      "term": "loyal-champ",
+      "rank": 457
+    },
+    {
+      "term": "loyal-chief",
+      "rank": 458
+    },
+    {
+      "term": "loyal-captain",
+      "rank": 459
+    },
+    {
+      "term": "loyal-ranger",
+      "rank": 460
+    },
+    {
+      "term": "loyal-scout",
+      "rank": 461
+    },
+    {
+      "term": "loyal-guardian",
+      "rank": 462
+    },
+    {
+      "term": "loyal-protector",
+      "rank": 463
+    },
+    {
+      "term": "loyal-defender",
+      "rank": 464
+    },
+    {
+      "term": "loyal-wingman",
+      "rank": 465
+    },
+    {
+      "term": "loyal-wingwoman",
+      "rank": 466
+    },
+    {
+      "term": "loyal-sidekick",
+      "rank": 467
+    },
+    {
+      "term": "loyal-co-pilot",
+      "rank": 468
+    },
+    {
+      "term": "loyal-navigator",
+      "rank": 469
+    },
+    {
+      "term": "loyal-pilot",
+      "rank": 470
+    },
+    {
+      "term": "loyal-driver",
+      "rank": 471
+    },
+    {
+      "term": "loyal-rider",
+      "rank": 472
+    },
+    {
+      "term": "loyal-runner",
+      "rank": 473
+    },
+    {
+      "term": "loyal-sprinter",
+      "rank": 474
+    },
+    {
+      "term": "loyal-walker",
+      "rank": 475
+    },
+    {
+      "term": "loyal-flyer",
+      "rank": 476
+    },
+    {
+      "term": "loyal-glider",
+      "rank": 477
+    },
+    {
+      "term": "loyal-sailor",
+      "rank": 478
+    },
+    {
+      "term": "loyal-skipper",
+      "rank": 479
+    },
+    {
+      "term": "loyal-commander",
+      "rank": 480
+    },
+    {
+      "term": "loyal-general",
+      "rank": 481
+    },
+    {
+      "term": "loyal-marshal",
+      "rank": 482
+    },
+    {
+      "term": "loyal-admiral",
+      "rank": 483
+    },
+    {
+      "term": "loyal-sheriff",
+      "rank": 484
+    },
+    {
+      "term": "loyal-deputy",
+      "rank": 485
+    },
+    {
+      "term": "loyal-warden",
+      "rank": 486
+    },
+    {
+      "term": "loyal-watchman",
+      "rank": 487
+    },
+    {
+      "term": "loyal-sentinel",
+      "rank": 488
+    },
+    {
+      "term": "loyal-shield",
+      "rank": 489
+    },
+    {
+      "term": "loyal-bulwark",
+      "rank": 490
+    },
+    {
+      "term": "loyal-anchor",
+      "rank": 491
+    },
+    {
+      "term": "loyal-rock",
+      "rank": 492
+    },
+    {
+      "term": "loyal-pillar",
+      "rank": 493
+    },
+    {
+      "term": "loyal-support",
+      "rank": 494
+    },
+    {
+      "term": "loyal-backer",
+      "rank": 495
+    },
+    {
+      "term": "loyal-booster",
+      "rank": 496
+    },
+    {
+      "term": "loyal-advocate",
+      "rank": 497
+    },
+    {
+      "term": "loyal-paladin",
+      "rank": 498
+    },
+    {
+      "term": "loyal-knight",
+      "rank": 499
+    },
+    {
+      "term": "loyal-warrior",
+      "rank": 500
+    },
+    {
+      "term": "loyal-bard",
+      "rank": 501
+    },
+    {
+      "term": "loyal-squire",
+      "rank": 502
+    },
+    {
+      "term": "loyal-sage",
+      "rank": 503
+    },
+    {
+      "term": "loyal-wizard",
+      "rank": 504
+    },
+    {
+      "term": "loyal-mage",
+      "rank": 505
+    },
+    {
+      "term": "loyal-sorcerer",
+      "rank": 506
+    },
+    {
+      "term": "loyal-druid",
+      "rank": 507
+    },
+    {
+      "term": "loyal-shaman",
+      "rank": 508
+    },
+    {
+      "term": "loyal-oracle",
+      "rank": 509
+    },
+    {
+      "term": "loyal-seer",
+      "rank": 510
+    },
+    {
+      "term": "loyal-prophet",
+      "rank": 511
+    },
+    {
+      "term": "loyal-hero",
+      "rank": 512
+    },
+    {
+      "term": "loyal-legend",
+      "rank": 513
+    },
+    {
+      "term": "loyal-icon",
+      "rank": 514
+    },
+    {
+      "term": "loyal-idol",
+      "rank": 515
+    },
+    {
+      "term": "loyal-maverick",
+      "rank": 516
+    },
+    {
+      "term": "solid-buddy",
+      "rank": 517
+    },
+    {
+      "term": "solid-pal",
+      "rank": 518
+    },
+    {
+      "term": "solid-bro",
+      "rank": 519
+    },
+    {
+      "term": "solid-homie",
+      "rank": 520
+    },
+    {
+      "term": "solid-friend",
+      "rank": 521
+    },
+    {
+      "term": "solid-mate",
+      "rank": 522
+    },
+    {
+      "term": "solid-companion",
+      "rank": 523
+    },
+    {
+      "term": "solid-partner",
+      "rank": 524
+    },
+    {
+      "term": "solid-ally",
+      "rank": 525
+    },
+    {
+      "term": "solid-ace",
+      "rank": 526
+    },
+    {
+      "term": "solid-champ",
+      "rank": 527
+    },
+    {
+      "term": "solid-chief",
+      "rank": 528
+    },
+    {
+      "term": "solid-captain",
+      "rank": 529
+    },
+    {
+      "term": "solid-ranger",
+      "rank": 530
+    },
+    {
+      "term": "solid-scout",
+      "rank": 531
+    },
+    {
+      "term": "solid-guardian",
+      "rank": 532
+    },
+    {
+      "term": "solid-protector",
+      "rank": 533
+    },
+    {
+      "term": "solid-defender",
+      "rank": 534
+    },
+    {
+      "term": "solid-wingman",
+      "rank": 535
+    },
+    {
+      "term": "solid-wingwoman",
+      "rank": 536
+    },
+    {
+      "term": "solid-sidekick",
+      "rank": 537
+    },
+    {
+      "term": "solid-co-pilot",
+      "rank": 538
+    },
+    {
+      "term": "solid-navigator",
+      "rank": 539
+    },
+    {
+      "term": "solid-pilot",
+      "rank": 540
+    },
+    {
+      "term": "solid-driver",
+      "rank": 541
+    },
+    {
+      "term": "solid-rider",
+      "rank": 542
+    },
+    {
+      "term": "solid-runner",
+      "rank": 543
+    },
+    {
+      "term": "solid-sprinter",
+      "rank": 544
+    },
+    {
+      "term": "solid-walker",
+      "rank": 545
+    },
+    {
+      "term": "solid-flyer",
+      "rank": 546
+    },
+    {
+      "term": "solid-glider",
+      "rank": 547
+    },
+    {
+      "term": "solid-sailor",
+      "rank": 548
+    },
+    {
+      "term": "solid-skipper",
+      "rank": 549
+    },
+    {
+      "term": "solid-commander",
+      "rank": 550
+    },
+    {
+      "term": "solid-general",
+      "rank": 551
+    },
+    {
+      "term": "solid-marshal",
+      "rank": 552
+    },
+    {
+      "term": "solid-admiral",
+      "rank": 553
+    },
+    {
+      "term": "solid-sheriff",
+      "rank": 554
+    },
+    {
+      "term": "solid-deputy",
+      "rank": 555
+    },
+    {
+      "term": "solid-warden",
+      "rank": 556
+    },
+    {
+      "term": "solid-watchman",
+      "rank": 557
+    },
+    {
+      "term": "solid-sentinel",
+      "rank": 558
+    },
+    {
+      "term": "solid-shield",
+      "rank": 559
+    },
+    {
+      "term": "solid-bulwark",
+      "rank": 560
+    },
+    {
+      "term": "solid-anchor",
+      "rank": 561
+    },
+    {
+      "term": "solid-rock",
+      "rank": 562
+    },
+    {
+      "term": "solid-pillar",
+      "rank": 563
+    },
+    {
+      "term": "solid-support",
+      "rank": 564
+    },
+    {
+      "term": "solid-backer",
+      "rank": 565
+    },
+    {
+      "term": "solid-booster",
+      "rank": 566
+    },
+    {
+      "term": "solid-advocate",
+      "rank": 567
+    },
+    {
+      "term": "solid-paladin",
+      "rank": 568
+    },
+    {
+      "term": "solid-knight",
+      "rank": 569
+    },
+    {
+      "term": "solid-warrior",
+      "rank": 570
+    },
+    {
+      "term": "solid-bard",
+      "rank": 571
+    },
+    {
+      "term": "solid-squire",
+      "rank": 572
+    },
+    {
+      "term": "solid-sage",
+      "rank": 573
+    },
+    {
+      "term": "solid-wizard",
+      "rank": 574
+    },
+    {
+      "term": "solid-mage",
+      "rank": 575
+    },
+    {
+      "term": "solid-sorcerer",
+      "rank": 576
+    },
+    {
+      "term": "solid-druid",
+      "rank": 577
+    },
+    {
+      "term": "solid-shaman",
+      "rank": 578
+    },
+    {
+      "term": "solid-oracle",
+      "rank": 579
+    },
+    {
+      "term": "solid-seer",
+      "rank": 580
+    },
+    {
+      "term": "solid-prophet",
+      "rank": 581
+    },
+    {
+      "term": "solid-hero",
+      "rank": 582
+    },
+    {
+      "term": "solid-legend",
+      "rank": 583
+    },
+    {
+      "term": "solid-icon",
+      "rank": 584
+    },
+    {
+      "term": "solid-idol",
+      "rank": 585
+    },
+    {
+      "term": "solid-maverick",
+      "rank": 586
+    },
+    {
+      "term": "real-buddy",
+      "rank": 587
+    },
+    {
+      "term": "real-pal",
+      "rank": 588
+    },
+    {
+      "term": "real-bro",
+      "rank": 589
+    },
+    {
+      "term": "real-homie",
+      "rank": 590
+    },
+    {
+      "term": "real-friend",
+      "rank": 591
+    },
+    {
+      "term": "real-mate",
+      "rank": 592
+    },
+    {
+      "term": "real-companion",
+      "rank": 593
+    },
+    {
+      "term": "real-partner",
+      "rank": 594
+    },
+    {
+      "term": "real-ally",
+      "rank": 595
+    },
+    {
+      "term": "real-ace",
+      "rank": 596
+    },
+    {
+      "term": "real-champ",
+      "rank": 597
+    },
+    {
+      "term": "real-chief",
+      "rank": 598
+    },
+    {
+      "term": "real-captain",
+      "rank": 599
+    },
+    {
+      "term": "real-ranger",
+      "rank": 600
+    },
+    {
+      "term": "real-scout",
+      "rank": 601
+    },
+    {
+      "term": "real-guardian",
+      "rank": 602
+    },
+    {
+      "term": "real-protector",
+      "rank": 603
+    },
+    {
+      "term": "real-defender",
+      "rank": 604
+    },
+    {
+      "term": "real-wingman",
+      "rank": 605
+    },
+    {
+      "term": "real-wingwoman",
+      "rank": 606
+    },
+    {
+      "term": "real-sidekick",
+      "rank": 607
+    },
+    {
+      "term": "real-co-pilot",
+      "rank": 608
+    },
+    {
+      "term": "real-navigator",
+      "rank": 609
+    },
+    {
+      "term": "real-pilot",
+      "rank": 610
+    },
+    {
+      "term": "real-driver",
+      "rank": 611
+    },
+    {
+      "term": "real-rider",
+      "rank": 612
+    },
+    {
+      "term": "real-runner",
+      "rank": 613
+    },
+    {
+      "term": "real-sprinter",
+      "rank": 614
+    },
+    {
+      "term": "real-walker",
+      "rank": 615
+    },
+    {
+      "term": "real-flyer",
+      "rank": 616
+    },
+    {
+      "term": "real-glider",
+      "rank": 617
+    },
+    {
+      "term": "real-sailor",
+      "rank": 618
+    },
+    {
+      "term": "real-skipper",
+      "rank": 619
+    },
+    {
+      "term": "real-commander",
+      "rank": 620
+    },
+    {
+      "term": "real-general",
+      "rank": 621
+    },
+    {
+      "term": "real-marshal",
+      "rank": 622
+    },
+    {
+      "term": "real-admiral",
+      "rank": 623
+    },
+    {
+      "term": "real-sheriff",
+      "rank": 624
+    },
+    {
+      "term": "real-deputy",
+      "rank": 625
+    },
+    {
+      "term": "real-warden",
+      "rank": 626
+    },
+    {
+      "term": "real-watchman",
+      "rank": 627
+    },
+    {
+      "term": "real-sentinel",
+      "rank": 628
+    },
+    {
+      "term": "real-shield",
+      "rank": 629
+    },
+    {
+      "term": "real-bulwark",
+      "rank": 630
+    },
+    {
+      "term": "real-anchor",
+      "rank": 631
+    },
+    {
+      "term": "real-rock",
+      "rank": 632
+    },
+    {
+      "term": "real-pillar",
+      "rank": 633
+    },
+    {
+      "term": "real-support",
+      "rank": 634
+    },
+    {
+      "term": "real-backer",
+      "rank": 635
+    },
+    {
+      "term": "real-booster",
+      "rank": 636
+    },
+    {
+      "term": "real-advocate",
+      "rank": 637
+    },
+    {
+      "term": "real-paladin",
+      "rank": 638
+    },
+    {
+      "term": "real-knight",
+      "rank": 639
+    },
+    {
+      "term": "real-warrior",
+      "rank": 640
+    },
+    {
+      "term": "real-bard",
+      "rank": 641
+    },
+    {
+      "term": "real-squire",
+      "rank": 642
+    },
+    {
+      "term": "real-sage",
+      "rank": 643
+    },
+    {
+      "term": "real-wizard",
+      "rank": 644
+    },
+    {
+      "term": "real-mage",
+      "rank": 645
+    },
+    {
+      "term": "real-sorcerer",
+      "rank": 646
+    },
+    {
+      "term": "real-druid",
+      "rank": 647
+    },
+    {
+      "term": "real-shaman",
+      "rank": 648
+    },
+    {
+      "term": "real-oracle",
+      "rank": 649
+    },
+    {
+      "term": "real-seer",
+      "rank": 650
+    },
+    {
+      "term": "real-prophet",
+      "rank": 651
+    },
+    {
+      "term": "real-hero",
+      "rank": 652
+    },
+    {
+      "term": "real-legend",
+      "rank": 653
+    },
+    {
+      "term": "real-icon",
+      "rank": 654
+    },
+    {
+      "term": "real-idol",
+      "rank": 655
+    },
+    {
+      "term": "real-maverick",
+      "rank": 656
+    },
+    {
+      "term": "true-buddy",
+      "rank": 657
+    },
+    {
+      "term": "true-pal",
+      "rank": 658
+    },
+    {
+      "term": "true-bro",
+      "rank": 659
+    },
+    {
+      "term": "true-homie",
+      "rank": 660
+    },
+    {
+      "term": "true-friend",
+      "rank": 661
+    },
+    {
+      "term": "true-mate",
+      "rank": 662
+    },
+    {
+      "term": "true-companion",
+      "rank": 663
+    },
+    {
+      "term": "true-partner",
+      "rank": 664
+    },
+    {
+      "term": "true-ally",
+      "rank": 665
+    },
+    {
+      "term": "true-ace",
+      "rank": 666
+    },
+    {
+      "term": "true-champ",
+      "rank": 667
+    },
+    {
+      "term": "true-chief",
+      "rank": 668
+    },
+    {
+      "term": "true-captain",
+      "rank": 669
+    },
+    {
+      "term": "true-ranger",
+      "rank": 670
+    },
+    {
+      "term": "true-scout",
+      "rank": 671
+    },
+    {
+      "term": "true-guardian",
+      "rank": 672
+    },
+    {
+      "term": "true-protector",
+      "rank": 673
+    },
+    {
+      "term": "true-defender",
+      "rank": 674
+    },
+    {
+      "term": "true-wingman",
+      "rank": 675
+    },
+    {
+      "term": "true-wingwoman",
+      "rank": 676
+    },
+    {
+      "term": "true-sidekick",
+      "rank": 677
+    },
+    {
+      "term": "true-co-pilot",
+      "rank": 678
+    },
+    {
+      "term": "true-navigator",
+      "rank": 679
+    },
+    {
+      "term": "true-pilot",
+      "rank": 680
+    },
+    {
+      "term": "true-driver",
+      "rank": 681
+    },
+    {
+      "term": "true-rider",
+      "rank": 682
+    },
+    {
+      "term": "true-runner",
+      "rank": 683
+    },
+    {
+      "term": "true-sprinter",
+      "rank": 684
+    },
+    {
+      "term": "true-walker",
+      "rank": 685
+    },
+    {
+      "term": "true-flyer",
+      "rank": 686
+    },
+    {
+      "term": "true-glider",
+      "rank": 687
+    },
+    {
+      "term": "true-sailor",
+      "rank": 688
+    },
+    {
+      "term": "true-skipper",
+      "rank": 689
+    },
+    {
+      "term": "true-commander",
+      "rank": 690
+    },
+    {
+      "term": "true-general",
+      "rank": 691
+    },
+    {
+      "term": "true-marshal",
+      "rank": 692
+    },
+    {
+      "term": "true-admiral",
+      "rank": 693
+    },
+    {
+      "term": "true-sheriff",
+      "rank": 694
+    },
+    {
+      "term": "true-deputy",
+      "rank": 695
+    },
+    {
+      "term": "true-warden",
+      "rank": 696
+    },
+    {
+      "term": "true-watchman",
+      "rank": 697
+    },
+    {
+      "term": "true-sentinel",
+      "rank": 698
+    },
+    {
+      "term": "true-shield",
+      "rank": 699
+    },
+    {
+      "term": "true-bulwark",
+      "rank": 700
+    },
+    {
+      "term": "true-anchor",
+      "rank": 701
+    },
+    {
+      "term": "true-rock",
+      "rank": 702
+    },
+    {
+      "term": "true-pillar",
+      "rank": 703
+    },
+    {
+      "term": "true-support",
+      "rank": 704
+    },
+    {
+      "term": "true-backer",
+      "rank": 705
+    },
+    {
+      "term": "true-booster",
+      "rank": 706
+    },
+    {
+      "term": "true-advocate",
+      "rank": 707
+    },
+    {
+      "term": "true-paladin",
+      "rank": 708
+    },
+    {
+      "term": "true-knight",
+      "rank": 709
+    },
+    {
+      "term": "true-warrior",
+      "rank": 710
+    },
+    {
+      "term": "true-bard",
+      "rank": 711
+    },
+    {
+      "term": "true-squire",
+      "rank": 712
+    },
+    {
+      "term": "true-sage",
+      "rank": 713
+    },
+    {
+      "term": "true-wizard",
+      "rank": 714
+    },
+    {
+      "term": "true-mage",
+      "rank": 715
+    },
+    {
+      "term": "true-sorcerer",
+      "rank": 716
+    },
+    {
+      "term": "true-druid",
+      "rank": 717
+    },
+    {
+      "term": "true-shaman",
+      "rank": 718
+    },
+    {
+      "term": "true-oracle",
+      "rank": 719
+    },
+    {
+      "term": "true-seer",
+      "rank": 720
+    },
+    {
+      "term": "true-prophet",
+      "rank": 721
+    },
+    {
+      "term": "true-hero",
+      "rank": 722
+    },
+    {
+      "term": "true-legend",
+      "rank": 723
+    },
+    {
+      "term": "true-icon",
+      "rank": 724
+    },
+    {
+      "term": "true-idol",
+      "rank": 725
+    },
+    {
+      "term": "true-maverick",
+      "rank": 726
+    },
+    {
+      "term": "prime-buddy",
+      "rank": 727
+    },
+    {
+      "term": "prime-pal",
+      "rank": 728
+    },
+    {
+      "term": "prime-bro",
+      "rank": 729
+    },
+    {
+      "term": "prime-homie",
+      "rank": 730
+    },
+    {
+      "term": "prime-friend",
+      "rank": 731
+    },
+    {
+      "term": "prime-mate",
+      "rank": 732
+    },
+    {
+      "term": "prime-companion",
+      "rank": 733
+    },
+    {
+      "term": "prime-partner",
+      "rank": 734
+    },
+    {
+      "term": "prime-ally",
+      "rank": 735
+    },
+    {
+      "term": "prime-ace",
+      "rank": 736
+    },
+    {
+      "term": "prime-champ",
+      "rank": 737
+    },
+    {
+      "term": "prime-chief",
+      "rank": 738
+    },
+    {
+      "term": "prime-captain",
+      "rank": 739
+    },
+    {
+      "term": "prime-ranger",
+      "rank": 740
+    },
+    {
+      "term": "prime-scout",
+      "rank": 741
+    },
+    {
+      "term": "prime-guardian",
+      "rank": 742
+    },
+    {
+      "term": "prime-protector",
+      "rank": 743
+    },
+    {
+      "term": "prime-defender",
+      "rank": 744
+    },
+    {
+      "term": "prime-wingman",
+      "rank": 745
+    },
+    {
+      "term": "prime-wingwoman",
+      "rank": 746
+    },
+    {
+      "term": "prime-sidekick",
+      "rank": 747
+    },
+    {
+      "term": "prime-co-pilot",
+      "rank": 748
+    },
+    {
+      "term": "prime-navigator",
+      "rank": 749
+    },
+    {
+      "term": "prime-pilot",
+      "rank": 750
+    },
+    {
+      "term": "prime-driver",
+      "rank": 751
+    },
+    {
+      "term": "prime-rider",
+      "rank": 752
+    },
+    {
+      "term": "prime-runner",
+      "rank": 753
+    },
+    {
+      "term": "prime-sprinter",
+      "rank": 754
+    },
+    {
+      "term": "prime-walker",
+      "rank": 755
+    },
+    {
+      "term": "prime-flyer",
+      "rank": 756
+    },
+    {
+      "term": "prime-glider",
+      "rank": 757
+    },
+    {
+      "term": "prime-sailor",
+      "rank": 758
+    },
+    {
+      "term": "prime-skipper",
+      "rank": 759
+    },
+    {
+      "term": "prime-commander",
+      "rank": 760
+    },
+    {
+      "term": "prime-general",
+      "rank": 761
+    },
+    {
+      "term": "prime-marshal",
+      "rank": 762
+    },
+    {
+      "term": "prime-admiral",
+      "rank": 763
+    },
+    {
+      "term": "prime-sheriff",
+      "rank": 764
+    },
+    {
+      "term": "prime-deputy",
+      "rank": 765
+    },
+    {
+      "term": "prime-warden",
+      "rank": 766
+    },
+    {
+      "term": "prime-watchman",
+      "rank": 767
+    },
+    {
+      "term": "prime-sentinel",
+      "rank": 768
+    },
+    {
+      "term": "prime-shield",
+      "rank": 769
+    },
+    {
+      "term": "prime-bulwark",
+      "rank": 770
+    },
+    {
+      "term": "prime-anchor",
+      "rank": 771
+    },
+    {
+      "term": "prime-rock",
+      "rank": 772
+    },
+    {
+      "term": "prime-pillar",
+      "rank": 773
+    },
+    {
+      "term": "prime-support",
+      "rank": 774
+    },
+    {
+      "term": "prime-backer",
+      "rank": 775
+    },
+    {
+      "term": "prime-booster",
+      "rank": 776
+    },
+    {
+      "term": "prime-advocate",
+      "rank": 777
+    },
+    {
+      "term": "prime-paladin",
+      "rank": 778
+    },
+    {
+      "term": "prime-knight",
+      "rank": 779
+    },
+    {
+      "term": "prime-warrior",
+      "rank": 780
+    },
+    {
+      "term": "prime-bard",
+      "rank": 781
+    },
+    {
+      "term": "prime-squire",
+      "rank": 782
+    },
+    {
+      "term": "prime-sage",
+      "rank": 783
+    },
+    {
+      "term": "prime-wizard",
+      "rank": 784
+    },
+    {
+      "term": "prime-mage",
+      "rank": 785
+    },
+    {
+      "term": "prime-sorcerer",
+      "rank": 786
+    },
+    {
+      "term": "prime-druid",
+      "rank": 787
+    },
+    {
+      "term": "prime-shaman",
+      "rank": 788
+    },
+    {
+      "term": "prime-oracle",
+      "rank": 789
+    },
+    {
+      "term": "prime-seer",
+      "rank": 790
+    },
+    {
+      "term": "prime-prophet",
+      "rank": 791
+    },
+    {
+      "term": "prime-hero",
+      "rank": 792
+    },
+    {
+      "term": "prime-legend",
+      "rank": 793
+    },
+    {
+      "term": "prime-icon",
+      "rank": 794
+    },
+    {
+      "term": "prime-idol",
+      "rank": 795
+    },
+    {
+      "term": "prime-maverick",
+      "rank": 796
+    },
+    {
+      "term": "main-buddy",
+      "rank": 797
+    },
+    {
+      "term": "main-pal",
+      "rank": 798
+    },
+    {
+      "term": "main-homie",
+      "rank": 799
+    },
+    {
+      "term": "main-friend",
+      "rank": 800
+    },
+    {
+      "term": "main-mate",
+      "rank": 801
+    },
+    {
+      "term": "main-companion",
+      "rank": 802
+    },
+    {
+      "term": "main-partner",
+      "rank": 803
+    },
+    {
+      "term": "main-ally",
+      "rank": 804
+    },
+    {
+      "term": "main-ace",
+      "rank": 805
+    },
+    {
+      "term": "main-champ",
+      "rank": 806
+    },
+    {
+      "term": "main-chief",
+      "rank": 807
+    },
+    {
+      "term": "main-captain",
+      "rank": 808
+    },
+    {
+      "term": "main-ranger",
+      "rank": 809
+    },
+    {
+      "term": "main-scout",
+      "rank": 810
+    },
+    {
+      "term": "main-guardian",
+      "rank": 811
+    },
+    {
+      "term": "main-protector",
+      "rank": 812
+    },
+    {
+      "term": "main-defender",
+      "rank": 813
+    },
+    {
+      "term": "main-wingman",
+      "rank": 814
+    },
+    {
+      "term": "main-wingwoman",
+      "rank": 815
+    },
+    {
+      "term": "main-sidekick",
+      "rank": 816
+    },
+    {
+      "term": "main-co-pilot",
+      "rank": 817
+    },
+    {
+      "term": "main-navigator",
+      "rank": 818
+    },
+    {
+      "term": "main-pilot",
+      "rank": 819
+    },
+    {
+      "term": "main-driver",
+      "rank": 820
+    },
+    {
+      "term": "main-rider",
+      "rank": 821
+    },
+    {
+      "term": "main-runner",
+      "rank": 822
+    },
+    {
+      "term": "main-sprinter",
+      "rank": 823
+    },
+    {
+      "term": "main-walker",
+      "rank": 824
+    },
+    {
+      "term": "main-flyer",
+      "rank": 825
+    },
+    {
+      "term": "main-glider",
+      "rank": 826
+    },
+    {
+      "term": "main-sailor",
+      "rank": 827
+    },
+    {
+      "term": "main-skipper",
+      "rank": 828
+    },
+    {
+      "term": "main-commander",
+      "rank": 829
+    },
+    {
+      "term": "main-general",
+      "rank": 830
+    },
+    {
+      "term": "main-marshal",
+      "rank": 831
+    },
+    {
+      "term": "main-admiral",
+      "rank": 832
+    },
+    {
+      "term": "main-sheriff",
+      "rank": 833
+    },
+    {
+      "term": "main-deputy",
+      "rank": 834
+    },
+    {
+      "term": "main-warden",
+      "rank": 835
+    },
+    {
+      "term": "main-watchman",
+      "rank": 836
+    },
+    {
+      "term": "main-sentinel",
+      "rank": 837
+    },
+    {
+      "term": "main-shield",
+      "rank": 838
+    },
+    {
+      "term": "main-bulwark",
+      "rank": 839
+    },
+    {
+      "term": "main-anchor",
+      "rank": 840
+    },
+    {
+      "term": "main-rock",
+      "rank": 841
+    },
+    {
+      "term": "main-pillar",
+      "rank": 842
+    },
+    {
+      "term": "main-support",
+      "rank": 843
+    },
+    {
+      "term": "main-backer",
+      "rank": 844
+    },
+    {
+      "term": "main-booster",
+      "rank": 845
+    },
+    {
+      "term": "main-advocate",
+      "rank": 846
+    },
+    {
+      "term": "main-paladin",
+      "rank": 847
+    },
+    {
+      "term": "main-knight",
+      "rank": 848
+    },
+    {
+      "term": "main-warrior",
+      "rank": 849
+    },
+    {
+      "term": "main-bard",
+      "rank": 850
+    },
+    {
+      "term": "main-squire",
+      "rank": 851
+    },
+    {
+      "term": "main-sage",
+      "rank": 852
+    },
+    {
+      "term": "main-wizard",
+      "rank": 853
+    },
+    {
+      "term": "main-mage",
+      "rank": 854
+    },
+    {
+      "term": "main-sorcerer",
+      "rank": 855
+    },
+    {
+      "term": "main-druid",
+      "rank": 856
+    },
+    {
+      "term": "main-shaman",
+      "rank": 857
+    },
+    {
+      "term": "main-oracle",
+      "rank": 858
+    },
+    {
+      "term": "main-seer",
+      "rank": 859
+    },
+    {
+      "term": "main-prophet",
+      "rank": 860
+    },
+    {
+      "term": "main-hero",
+      "rank": 861
+    },
+    {
+      "term": "main-legend",
+      "rank": 862
+    },
+    {
+      "term": "main-icon",
+      "rank": 863
+    },
+    {
+      "term": "main-idol",
+      "rank": 864
+    },
+    {
+      "term": "main-maverick",
+      "rank": 865
+    },
+    {
+      "term": "top-bro",
+      "rank": 866
+    },
+    {
+      "term": "top-companion",
+      "rank": 867
+    },
+    {
+      "term": "top-partner",
+      "rank": 868
+    },
+    {
+      "term": "top-ally",
+      "rank": 869
+    },
+    {
+      "term": "top-ace",
+      "rank": 870
+    },
+    {
+      "term": "top-champ",
+      "rank": 871
+    },
+    {
+      "term": "top-chief",
+      "rank": 872
+    },
+    {
+      "term": "top-captain",
+      "rank": 873
+    },
+    {
+      "term": "top-ranger",
+      "rank": 874
+    },
+    {
+      "term": "top-scout",
+      "rank": 875
+    },
+    {
+      "term": "top-guardian",
+      "rank": 876
+    },
+    {
+      "term": "top-protector",
+      "rank": 877
+    },
+    {
+      "term": "top-defender",
+      "rank": 878
+    },
+    {
+      "term": "top-wingman",
+      "rank": 879
+    },
+    {
+      "term": "top-wingwoman",
+      "rank": 880
+    },
+    {
+      "term": "top-sidekick",
+      "rank": 881
+    },
+    {
+      "term": "top-co-pilot",
+      "rank": 882
+    },
+    {
+      "term": "top-navigator",
+      "rank": 883
+    },
+    {
+      "term": "top-pilot",
+      "rank": 884
+    },
+    {
+      "term": "top-driver",
+      "rank": 885
+    },
+    {
+      "term": "top-rider",
+      "rank": 886
+    },
+    {
+      "term": "top-runner",
+      "rank": 887
+    },
+    {
+      "term": "top-sprinter",
+      "rank": 888
+    },
+    {
+      "term": "top-walker",
+      "rank": 889
+    },
+    {
+      "term": "top-flyer",
+      "rank": 890
+    },
+    {
+      "term": "top-glider",
+      "rank": 891
+    },
+    {
+      "term": "top-sailor",
+      "rank": 892
+    },
+    {
+      "term": "top-skipper",
+      "rank": 893
+    },
+    {
+      "term": "top-commander",
+      "rank": 894
+    },
+    {
+      "term": "top-general",
+      "rank": 895
+    },
+    {
+      "term": "top-marshal",
+      "rank": 896
+    },
+    {
+      "term": "top-admiral",
+      "rank": 897
+    },
+    {
+      "term": "top-sheriff",
+      "rank": 898
+    },
+    {
+      "term": "top-deputy",
+      "rank": 899
+    },
+    {
+      "term": "top-warden",
+      "rank": 900
+    },
+    {
+      "term": "top-watchman",
+      "rank": 901
+    },
+    {
+      "term": "top-sentinel",
+      "rank": 902
+    },
+    {
+      "term": "top-shield",
+      "rank": 903
+    },
+    {
+      "term": "top-bulwark",
+      "rank": 904
+    },
+    {
+      "term": "top-anchor",
+      "rank": 905
+    },
+    {
+      "term": "top-rock",
+      "rank": 906
+    },
+    {
+      "term": "top-pillar",
+      "rank": 907
+    },
+    {
+      "term": "top-support",
+      "rank": 908
+    },
+    {
+      "term": "top-backer",
+      "rank": 909
+    },
+    {
+      "term": "top-booster",
+      "rank": 910
+    },
+    {
+      "term": "top-advocate",
+      "rank": 911
+    },
+    {
+      "term": "top-paladin",
+      "rank": 912
+    },
+    {
+      "term": "top-knight",
+      "rank": 913
+    },
+    {
+      "term": "top-warrior",
+      "rank": 914
+    },
+    {
+      "term": "top-bard",
+      "rank": 915
+    },
+    {
+      "term": "top-squire",
+      "rank": 916
+    },
+    {
+      "term": "top-sage",
+      "rank": 917
+    },
+    {
+      "term": "top-wizard",
+      "rank": 918
+    },
+    {
+      "term": "top-mage",
+      "rank": 919
+    },
+    {
+      "term": "top-sorcerer",
+      "rank": 920
+    },
+    {
+      "term": "top-druid",
+      "rank": 921
+    },
+    {
+      "term": "top-shaman",
+      "rank": 922
+    },
+    {
+      "term": "top-oracle",
+      "rank": 923
+    },
+    {
+      "term": "top-seer",
+      "rank": 924
+    },
+    {
+      "term": "top-prophet",
+      "rank": 925
+    },
+    {
+      "term": "top-hero",
+      "rank": 926
+    },
+    {
+      "term": "top-legend",
+      "rank": 927
+    },
+    {
+      "term": "top-icon",
+      "rank": 928
+    },
+    {
+      "term": "top-idol",
+      "rank": 929
+    },
+    {
+      "term": "top-maverick",
+      "rank": 930
+    },
+    {
+      "term": "ultra-buddy",
+      "rank": 931
+    },
+    {
+      "term": "ultra-pal",
+      "rank": 932
+    },
+    {
+      "term": "ultra-bro",
+      "rank": 933
+    },
+    {
+      "term": "ultra-homie",
+      "rank": 934
+    },
+    {
+      "term": "ultra-friend",
+      "rank": 935
+    },
+    {
+      "term": "ultra-mate",
+      "rank": 936
+    },
+    {
+      "term": "ultra-companion",
+      "rank": 937
+    },
+    {
+      "term": "ultra-partner",
+      "rank": 938
+    },
+    {
+      "term": "ultra-ally",
+      "rank": 939
+    },
+    {
+      "term": "ultra-ace",
+      "rank": 940
+    },
+    {
+      "term": "ultra-champ",
+      "rank": 941
+    },
+    {
+      "term": "ultra-chief",
+      "rank": 942
+    },
+    {
+      "term": "ultra-captain",
+      "rank": 943
+    },
+    {
+      "term": "ultra-ranger",
+      "rank": 944
+    },
+    {
+      "term": "ultra-scout",
+      "rank": 945
+    },
+    {
+      "term": "ultra-guardian",
+      "rank": 946
+    },
+    {
+      "term": "ultra-protector",
+      "rank": 947
+    },
+    {
+      "term": "ultra-defender",
+      "rank": 948
+    },
+    {
+      "term": "ultra-wingman",
+      "rank": 949
+    },
+    {
+      "term": "ultra-wingwoman",
+      "rank": 950
+    },
+    {
+      "term": "ultra-sidekick",
+      "rank": 951
+    },
+    {
+      "term": "ultra-co-pilot",
+      "rank": 952
+    },
+    {
+      "term": "ultra-navigator",
+      "rank": 953
+    },
+    {
+      "term": "ultra-pilot",
+      "rank": 954
+    },
+    {
+      "term": "ultra-driver",
+      "rank": 955
+    },
+    {
+      "term": "ultra-rider",
+      "rank": 956
+    },
+    {
+      "term": "ultra-runner",
+      "rank": 957
+    },
+    {
+      "term": "ultra-sprinter",
+      "rank": 958
+    },
+    {
+      "term": "ultra-walker",
+      "rank": 959
+    },
+    {
+      "term": "ultra-flyer",
+      "rank": 960
+    },
+    {
+      "term": "ultra-glider",
+      "rank": 961
+    },
+    {
+      "term": "ultra-sailor",
+      "rank": 962
+    },
+    {
+      "term": "ultra-skipper",
+      "rank": 963
+    },
+    {
+      "term": "ultra-commander",
+      "rank": 964
+    },
+    {
+      "term": "ultra-general",
+      "rank": 965
+    },
+    {
+      "term": "ultra-marshal",
+      "rank": 966
+    },
+    {
+      "term": "ultra-admiral",
+      "rank": 967
+    },
+    {
+      "term": "ultra-sheriff",
+      "rank": 968
+    },
+    {
+      "term": "ultra-deputy",
+      "rank": 969
+    },
+    {
+      "term": "ultra-warden",
+      "rank": 970
+    },
+    {
+      "term": "ultra-watchman",
+      "rank": 971
+    },
+    {
+      "term": "ultra-sentinel",
+      "rank": 972
+    },
+    {
+      "term": "ultra-shield",
+      "rank": 973
+    },
+    {
+      "term": "ultra-bulwark",
+      "rank": 974
+    },
+    {
+      "term": "ultra-anchor",
+      "rank": 975
+    },
+    {
+      "term": "ultra-rock",
+      "rank": 976
+    },
+    {
+      "term": "ultra-pillar",
+      "rank": 977
+    },
+    {
+      "term": "ultra-support",
+      "rank": 978
+    },
+    {
+      "term": "ultra-backer",
+      "rank": 979
+    },
+    {
+      "term": "ultra-booster",
+      "rank": 980
+    },
+    {
+      "term": "ultra-advocate",
+      "rank": 981
+    },
+    {
+      "term": "ultra-paladin",
+      "rank": 982
+    },
+    {
+      "term": "ultra-knight",
+      "rank": 983
+    },
+    {
+      "term": "ultra-warrior",
+      "rank": 984
+    },
+    {
+      "term": "ultra-bard",
+      "rank": 985
+    },
+    {
+      "term": "ultra-squire",
+      "rank": 986
+    },
+    {
+      "term": "ultra-sage",
+      "rank": 987
+    },
+    {
+      "term": "ultra-wizard",
+      "rank": 988
+    },
+    {
+      "term": "ultra-mage",
+      "rank": 989
+    },
+    {
+      "term": "ultra-sorcerer",
+      "rank": 990
+    },
+    {
+      "term": "ultra-druid",
+      "rank": 991
+    },
+    {
+      "term": "ultra-shaman",
+      "rank": 992
+    },
+    {
+      "term": "ultra-oracle",
+      "rank": 993
+    },
+    {
+      "term": "ultra-seer",
+      "rank": 994
+    },
+    {
+      "term": "ultra-prophet",
+      "rank": 995
+    },
+    {
+      "term": "ultra-hero",
+      "rank": 996
+    },
+    {
+      "term": "ultra-legend",
+      "rank": 997
+    },
+    {
+      "term": "ultra-icon",
+      "rank": 998
+    },
+    {
+      "term": "ultra-idol",
+      "rank": 999
+    },
+    {
+      "term": "ultra-maverick",
+      "rank": 1000
+    },
+    {
+      "term": "mega-buddy",
+      "rank": 1001
+    },
+    {
+      "term": "mega-pal",
+      "rank": 1002
+    },
+    {
+      "term": "mega-bro",
+      "rank": 1003
+    },
+    {
+      "term": "mega-homie",
+      "rank": 1004
+    },
+    {
+      "term": "mega-friend",
+      "rank": 1005
+    },
+    {
+      "term": "mega-mate",
+      "rank": 1006
+    },
+    {
+      "term": "mega-companion",
+      "rank": 1007
+    },
+    {
+      "term": "mega-partner",
+      "rank": 1008
+    },
+    {
+      "term": "mega-ally",
+      "rank": 1009
+    },
+    {
+      "term": "mega-ace",
+      "rank": 1010
+    },
+    {
+      "term": "mega-champ",
+      "rank": 1011
+    },
+    {
+      "term": "mega-chief",
+      "rank": 1012
+    },
+    {
+      "term": "mega-captain",
+      "rank": 1013
+    },
+    {
+      "term": "mega-ranger",
+      "rank": 1014
+    },
+    {
+      "term": "mega-scout",
+      "rank": 1015
+    },
+    {
+      "term": "mega-guardian",
+      "rank": 1016
+    },
+    {
+      "term": "mega-protector",
+      "rank": 1017
+    },
+    {
+      "term": "mega-defender",
+      "rank": 1018
+    },
+    {
+      "term": "mega-wingman",
+      "rank": 1019
+    },
+    {
+      "term": "mega-wingwoman",
+      "rank": 1020
+    },
+    {
+      "term": "mega-sidekick",
+      "rank": 1021
+    },
+    {
+      "term": "mega-co-pilot",
+      "rank": 1022
+    },
+    {
+      "term": "mega-navigator",
+      "rank": 1023
+    },
+    {
+      "term": "mega-pilot",
+      "rank": 1024
+    },
+    {
+      "term": "mega-driver",
+      "rank": 1025
+    },
+    {
+      "term": "mega-rider",
+      "rank": 1026
+    },
+    {
+      "term": "mega-runner",
+      "rank": 1027
+    },
+    {
+      "term": "mega-sprinter",
+      "rank": 1028
+    },
+    {
+      "term": "mega-walker",
+      "rank": 1029
+    },
+    {
+      "term": "mega-flyer",
+      "rank": 1030
+    },
+    {
+      "term": "mega-glider",
+      "rank": 1031
+    },
+    {
+      "term": "mega-sailor",
+      "rank": 1032
+    },
+    {
+      "term": "mega-skipper",
+      "rank": 1033
+    },
+    {
+      "term": "mega-commander",
+      "rank": 1034
+    },
+    {
+      "term": "mega-general",
+      "rank": 1035
+    },
+    {
+      "term": "mega-marshal",
+      "rank": 1036
+    },
+    {
+      "term": "mega-admiral",
+      "rank": 1037
+    },
+    {
+      "term": "mega-sheriff",
+      "rank": 1038
+    },
+    {
+      "term": "mega-deputy",
+      "rank": 1039
+    },
+    {
+      "term": "mega-warden",
+      "rank": 1040
+    },
+    {
+      "term": "mega-watchman",
+      "rank": 1041
+    },
+    {
+      "term": "mega-sentinel",
+      "rank": 1042
+    },
+    {
+      "term": "mega-shield",
+      "rank": 1043
+    },
+    {
+      "term": "mega-bulwark",
+      "rank": 1044
+    },
+    {
+      "term": "mega-anchor",
+      "rank": 1045
+    },
+    {
+      "term": "mega-rock",
+      "rank": 1046
+    },
+    {
+      "term": "mega-pillar",
+      "rank": 1047
+    },
+    {
+      "term": "mega-support",
+      "rank": 1048
+    },
+    {
+      "term": "mega-backer",
+      "rank": 1049
+    },
+    {
+      "term": "mega-booster",
+      "rank": 1050
+    },
+    {
+      "term": "mega-advocate",
+      "rank": 1051
+    },
+    {
+      "term": "mega-paladin",
+      "rank": 1052
+    },
+    {
+      "term": "mega-knight",
+      "rank": 1053
+    },
+    {
+      "term": "mega-warrior",
+      "rank": 1054
+    },
+    {
+      "term": "mega-bard",
+      "rank": 1055
+    },
+    {
+      "term": "mega-squire",
+      "rank": 1056
+    },
+    {
+      "term": "mega-sage",
+      "rank": 1057
+    },
+    {
+      "term": "mega-wizard",
+      "rank": 1058
+    },
+    {
+      "term": "mega-mage",
+      "rank": 1059
+    },
+    {
+      "term": "mega-sorcerer",
+      "rank": 1060
+    },
+    {
+      "term": "mega-druid",
+      "rank": 1061
+    },
+    {
+      "term": "mega-shaman",
+      "rank": 1062
+    },
+    {
+      "term": "mega-oracle",
+      "rank": 1063
+    },
+    {
+      "term": "mega-seer",
+      "rank": 1064
+    },
+    {
+      "term": "mega-prophet",
+      "rank": 1065
+    },
+    {
+      "term": "mega-hero",
+      "rank": 1066
+    },
+    {
+      "term": "mega-legend",
+      "rank": 1067
+    },
+    {
+      "term": "mega-icon",
+      "rank": 1068
+    },
+    {
+      "term": "mega-idol",
+      "rank": 1069
+    },
+    {
+      "term": "mega-maverick",
+      "rank": 1070
+    },
+    {
+      "term": "hyper-buddy",
+      "rank": 1071
+    },
+    {
+      "term": "hyper-pal",
+      "rank": 1072
+    },
+    {
+      "term": "hyper-bro",
+      "rank": 1073
+    },
+    {
+      "term": "hyper-homie",
+      "rank": 1074
+    },
+    {
+      "term": "hyper-friend",
+      "rank": 1075
+    },
+    {
+      "term": "hyper-mate",
+      "rank": 1076
+    },
+    {
+      "term": "hyper-companion",
+      "rank": 1077
+    },
+    {
+      "term": "hyper-partner",
+      "rank": 1078
+    },
+    {
+      "term": "hyper-ally",
+      "rank": 1079
+    },
+    {
+      "term": "hyper-ace",
+      "rank": 1080
+    },
+    {
+      "term": "hyper-champ",
+      "rank": 1081
+    },
+    {
+      "term": "hyper-chief",
+      "rank": 1082
+    },
+    {
+      "term": "hyper-captain",
+      "rank": 1083
+    },
+    {
+      "term": "hyper-ranger",
+      "rank": 1084
+    },
+    {
+      "term": "hyper-scout",
+      "rank": 1085
+    },
+    {
+      "term": "hyper-guardian",
+      "rank": 1086
+    },
+    {
+      "term": "hyper-protector",
+      "rank": 1087
+    },
+    {
+      "term": "hyper-defender",
+      "rank": 1088
+    },
+    {
+      "term": "hyper-wingman",
+      "rank": 1089
+    },
+    {
+      "term": "hyper-wingwoman",
+      "rank": 1090
+    },
+    {
+      "term": "hyper-sidekick",
+      "rank": 1091
+    },
+    {
+      "term": "hyper-co-pilot",
+      "rank": 1092
+    },
+    {
+      "term": "hyper-navigator",
+      "rank": 1093
+    },
+    {
+      "term": "hyper-pilot",
+      "rank": 1094
+    },
+    {
+      "term": "hyper-driver",
+      "rank": 1095
+    },
+    {
+      "term": "hyper-rider",
+      "rank": 1096
+    },
+    {
+      "term": "hyper-runner",
+      "rank": 1097
+    },
+    {
+      "term": "hyper-sprinter",
+      "rank": 1098
+    },
+    {
+      "term": "hyper-walker",
+      "rank": 1099
+    },
+    {
+      "term": "hyper-flyer",
+      "rank": 1100
+    },
+    {
+      "term": "hyper-glider",
+      "rank": 1101
+    },
+    {
+      "term": "hyper-sailor",
+      "rank": 1102
+    },
+    {
+      "term": "partner-in-crime",
+      "rank": 1103
+    },
+    {
+      "term": "co-conspirator",
+      "rank": 1104
+    },
+    {
+      "term": "mischief-mate",
+      "rank": 1105
+    },
+    {
+      "term": "crime-accomplice",
+      "rank": 1106
+    },
+    {
+      "term": "scheming-sidekick",
+      "rank": 1107
+    },
+    {
+      "term": "plotting-partner",
+      "rank": 1108
+    },
+    {
+      "term": "plan-pal",
+      "rank": 1109
+    },
+    {
+      "term": "scheme-buddy",
+      "rank": 1110
+    },
+    {
+      "term": "caped-accomplice",
+      "rank": 1111
+    },
+    {
+      "term": "side-quest-pal",
+      "rank": 1112
+    },
+    {
+      "term": "backup-dancer",
+      "rank": 1113
+    },
+    {
+      "term": "emergency-contact",
+      "rank": 1114
+    },
+    {
+      "term": "plus-one",
+      "rank": 1115
+    },
+    {
+      "term": "adjacent-acquaintance",
+      "rank": 1116
+    },
+    {
+      "term": "casual-contact",
+      "rank": 1117
+    },
+    {
+      "term": "friendly-stranger",
+      "rank": 1118
+    },
+    {
+      "term": "barely-buddy",
+      "rank": 1119
+    },
+    {
+      "term": "kinda-friend",
+      "rank": 1120
+    },
+    {
+      "term": "loose-pal",
+      "rank": 1121
+    },
+    {
+      "term": "situational-ally",
+      "rank": 1122
+    },
+    {
+      "term": "contextual-companion",
+      "rank": 1123
+    },
+    {
+      "term": "temporary-teammate",
+      "rank": 1124
+    },
+    {
+      "term": "momentary-mate",
+      "rank": 1125
+    },
+    {
+      "term": "conditional-comrade",
+      "rank": 1126
+    },
+    {
+      "term": "honorary-homie",
+      "rank": 1127
+    },
+    {
+      "term": "apprentice-amigo",
+      "rank": 1128
+    },
+    {
+      "term": "understudy-buddy",
+      "rank": 1129
+    },
+    {
+      "term": "trial-pal",
+      "rank": 1130
+    },
+    {
+      "term": "beta-buddy",
+      "rank": 1131
+    },
+    {
+      "term": "draft-friend",
+      "rank": 1132
+    },
+    {
+      "term": "placebo-pal",
+      "rank": 1133
+    },
+    {
+      "term": "filler-friend",
+      "rank": 1134
+    },
+    {
+      "term": "placeholder-pal",
+      "rank": 1135
+    },
+    {
+      "term": "substitute-sidekick",
+      "rank": 1136
+    },
+    {
+      "term": "alternate-amigo",
+      "rank": 1137
+    },
+    {
+      "term": "second-string-bud",
+      "rank": 1138
+    },
+    {
+      "term": "practice-partner",
+      "rank": 1139
+    },
+    {
+      "term": "scrimmage-mate",
+      "rank": 1140
+    },
+    {
+      "term": "weekend-wingman",
+      "rank": 1141
+    },
+    {
+      "term": "occasional-pal",
+      "rank": 1142
+    },
+    {
+      "term": "seasonal-buddy",
+      "rank": 1143
+    },
+    {
+      "term": "rotational-friend",
+      "rank": 1144
+    },
+    {
+      "term": "loaner-homie",
+      "rank": 1145
+    },
+    {
+      "term": "backup-bro",
+      "rank": 1146
+    },
+    {
+      "term": "assistant-pal",
+      "rank": 1147
+    },
+    {
+      "term": "junior-chum",
+      "rank": 1148
+    },
+    {
+      "term": "side-hustle-homie",
+      "rank": 1149
+    },
+    {
+      "term": "part-time-pal",
+      "rank": 1150
+    },
+    {
+      "term": "probationary-partner",
+      "rank": 1151
+    },
+    {
+      "term": "project-pal",
+      "rank": 1152
+    },
+    {
+      "term": "collaboration-mate",
+      "rank": 1153
+    },
+    {
+      "term": "co-op-companion",
+      "rank": 1154
+    },
+    {
+      "term": "buddy-adjacent",
+      "rank": 1155
+    },
+    {
+      "term": "friend-esque",
+      "rank": 1156
+    },
+    {
+      "term": "pal-like",
+      "rank": 1157
+    },
+    {
+      "term": "quasi-buddy",
+      "rank": 1158
+    },
+    {
+      "term": "pseudo-friend",
+      "rank": 1159
+    },
+    {
+      "term": "almost-amigo",
+      "rank": 1160
+    },
+    {
+      "term": "nearby-neighbor",
+      "rank": 1161
+    },
+    {
+      "term": "courtesy-companion",
+      "rank": 1162
+    },
+    {
+      "term": "greeting-acquaintance",
+      "rank": 1163
+    },
+    {
+      "term": "hello-only-friend",
+      "rank": 1164
+    },
+    {
+      "term": "watercooler-buddy",
+      "rank": 1165
+    },
+    {
+      "term": "coffee-break-pal",
+      "rank": 1166
+    },
+    {
+      "term": "lunch-table-mate",
+      "rank": 1167
+    },
+    {
+      "term": "meeting-room-friend",
+      "rank": 1168
+    },
+    {
+      "term": "conference-buddy",
+      "rank": 1169
+    },
+    {
+      "term": "trade-show-pal",
+      "rank": 1170
+    },
+    {
+      "term": "networking-buddy",
+      "rank": 1171
+    },
+    {
+      "term": "linkedin-connection",
+      "rank": 1172
+    },
+    {
+      "term": "mutual-follow",
+      "rank": 1173
+    },
+    {
+      "term": "comment-pal",
+      "rank": 1174
+    },
+    {
+      "term": "emoji-friend",
+      "rank": 1175
+    },
+    {
+      "term": "react-buddy",
+      "rank": 1176
+    },
+    {
+      "term": "thread-mate",
+      "rank": 1177
+    },
+    {
+      "term": "dm-buddy",
+      "rank": 1178
+    },
+    {
+      "term": "reply-pal",
+      "rank": 1179
+    },
+    {
+      "term": "mention-mate",
+      "rank": 1180
+    },
+    {
+      "term": "tag-team-pal",
+      "rank": 1181
+    },
+    {
+      "term": "partner-in-crime-lite",
+      "rank": 1182
+    },
+    {
+      "term": "companion-ish",
+      "rank": 1183
+    },
+    {
+      "term": "colleague-ish",
+      "rank": 1184
+    },
+    {
+      "term": "teammate-ish",
+      "rank": 1185
+    },
+    {
+      "term": "neighbor-ish",
+      "rank": 1186
+    },
+    {
+      "term": "buddy-ish",
+      "rank": 1187
+    },
+    {
+      "term": "pal-ish",
+      "rank": 1188
+    },
+    {
+      "term": "friend-ish",
+      "rank": 1189
+    },
+    {
+      "term": "associate-ish",
+      "rank": 1190
+    },
+    {
+      "term": "kinda-buddy",
+      "rank": 1191
+    },
+    {
+      "term": "sorta-pal",
+      "rank": 1192
+    },
+    {
+      "term": "sort-of-friend",
+      "rank": 1193
+    },
+    {
+      "term": "maybe-mate",
+      "rank": 1194
+    },
+    {
+      "term": "iffy-amigo",
+      "rank": 1195
+    },
+    {
+      "term": "questionable-comrade",
+      "rank": 1196
+    },
+    {
+      "term": "dubious-dude",
+      "rank": 1197
+    },
+    {
+      "term": "sketchy-sidekick",
+      "rank": 1198
+    },
+    {
+      "term": "backup-plan-buddy",
+      "rank": 1199
+    },
+    {
+      "term": "insurance-pal",
+      "rank": 1200
+    },
+    {
+      "term": "contingency-companion",
+      "rank": 1201
+    },
+    {
+      "term": "emergency-amigo",
+      "rank": 1202
+    },
+    {
+      "term": "fail-safe-friend",
+      "rank": 1203
+    },
+    {
+      "term": "spare-partner",
+      "rank": 1204
+    },
+    {
+      "term": "reserve-pal",
+      "rank": 1205
+    },
+    {
+      "term": "last-resort-buddy",
+      "rank": 1206
+    },
+    {
+      "term": "final-backup-bro",
+      "rank": 1207
+    },
+    {
+      "term": "partner-in-crime-emeritus",
+      "rank": 1208
+    }
+  ]
+}

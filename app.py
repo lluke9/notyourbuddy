@@ -161,7 +161,7 @@ def make_nice_try_response(
         response = "Nice try."
     if callout:
         response = f"{response} I'm not your {callout.strip()}."
-    return {"reply": append_score_suffix(response, 0), "score": 0}
+    return {"reply": response, "score": 0}
 
 
 @app.route("/")
@@ -201,13 +201,13 @@ def chat() -> object:
         extraction = extract_last_word(stripped)
         if not extraction:
             reset_state()
-            return jsonify({"reply": append_score_suffix("Ok.", 0), "score": 0})
+            return jsonify({"reply": "Ok.", "score": 0})
         last_word, word_count = extraction
         normalized = normalize_term(last_word)
         if not normalized or normalized not in LEXICON_LOOKUP:
             fallback = "Hi" if word_count == 1 else "Ok."
             reset_state()
-            return jsonify({"reply": append_score_suffix(fallback, 0), "score": 0})
+            return jsonify({"reply": fallback, "score": 0})
         state["used"].add(normalized)
         state["score"] = 1
         reply_word = pick_reply_word(state, disallow=last_word)
@@ -221,7 +221,7 @@ def chat() -> object:
     terms = parse_followup_terms(stripped)
     if not terms:
         reset_state()
-        return jsonify({"reply": append_score_suffix("Ok.", 0), "score": 0})
+        return jsonify({"reply": "Ok.", "score": 0})
 
     word1_raw, word2_raw = terms
     normalized_word1 = normalize_term(word1_raw)
@@ -229,7 +229,7 @@ def chat() -> object:
 
     if not normalized_word1 or not normalized_word2:
         reset_state()
-        return jsonify({"reply": append_score_suffix("Ok.", 0), "score": 0})
+        return jsonify({"reply": "Ok.", "score": 0})
 
     expected = state.get("last_bot_word")
     if not expected or normalized_word1 != expected:

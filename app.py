@@ -142,22 +142,20 @@ def reset_state() -> None:
 
 
 def extract_terms(message: str) -> Optional[List[str]]:
-    normalized_message = message.translate(UNICODE_NORMALIZERS)
     for pattern in INPUT_PATTERNS:
-        match = pattern.match(normalized_message)
+        match = pattern.match(message)
         if not match:
             continue
         raw_term = match.group("term")
         if not raw_term:
             continue
-        term_source = raw_term.translate(UNICODE_NORMALIZERS)
-        pieces = []
-        for part in re.split(r"[,\s]+", term_source):
-            cleaned = part.strip("'\"- ")
-            if cleaned:
-                pieces.append(cleaned)
+        pieces = [
+            part.strip("'\"- ")
+            for part in re.split(r"[,\s]+", raw_term)
+            if part.strip("'\"- ")
+        ]
         if pieces:
-            return pieces[-2:]
+            return pieces[:2]
     return None
 
 
@@ -213,28 +211,20 @@ def chat() -> object:
     terms = extract_terms(stripped)
     if not terms:
         return jsonify({"reply": "Use a friendly nickname so I can clap back.", "score": state.get("score", 0)})
-    processed_terms: List[tuple[str, str]] = []
+    processed_terms = []
     seen_in_message = set()
-    violation_term: Optional[str] = None
-
     for raw_term in terms:
         normalized = normalize_term(raw_term)
         if not normalized:
             continue
         if normalized in seen_in_message:
-            violation_term = raw_term
-            break
+            return jsonify(make_nice_try_response(state, disallow=raw_term))
         seen_in_message.add(normalized)
         if normalized not in LEXICON_LOOKUP:
-            violation_term = raw_term
-            break
+            return jsonify(make_nice_try_response(state, disallow=raw_term))
         if normalized in state["used"] or normalized in state["bot_used"]:
-            violation_term = raw_term
-            break
+            return jsonify(make_nice_try_response(state, disallow=raw_term))
         processed_terms.append((raw_term, normalized))
-
-    if violation_term:
-        return jsonify(make_nice_try_response(state, disallow=violation_term))
 
     if not processed_terms:
         return jsonify(make_nice_try_response(state))

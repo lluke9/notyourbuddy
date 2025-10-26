@@ -1,5 +1,6 @@
 import json
 import os
+import random
 import re
 import uuid
 from dataclasses import dataclass
@@ -22,8 +23,21 @@ class WordEntry:
     normalized: str
 
 
+UNICODE_NORMALIZERS = str.maketrans({
+    "’": "'",
+    "‘": "'",
+    "“": '"',
+    "”": '"',
+    "–": "-",
+    "—": "-",
+    "‑": "-",
+    "‒": "-",
+})
+
+
 def normalize_term(term: str) -> str:
-    cleaned = re.sub(r"[^a-z0-9]+", " ", term.lower())
+    ascii_term = term.translate(UNICODE_NORMALIZERS)
+    cleaned = re.sub(r"[^a-z0-9]+", " ", ascii_term.lower())
     return re.sub(r"\s+", " ", cleaned).strip()
 
 
@@ -40,6 +54,7 @@ def load_lexicon(path: str) -> List[WordEntry]:
 
 
 LEXICON: List[WordEntry] = load_lexicon(LEXICON_PATH)
+LEXICON_LOOKUP: Dict[str, WordEntry] = {entry.normalized: entry for entry in LEXICON}
 
 
 def build_patterns() -> List[Pattern[str]]:
@@ -126,16 +141,23 @@ def reset_state() -> None:
         SESSION_STATE[state_id] = {"used": set(), "bot_used": set(), "score": 0}
 
 
-def extract_term(message: str) -> Optional[str]:
+def extract_terms(message: str) -> Optional[List[str]]:
+    normalized_message = message.translate(UNICODE_NORMALIZERS)
     for pattern in INPUT_PATTERNS:
-        match = pattern.match(message)
-        if match:
-            raw_term = match.group("term")
-            if not raw_term:
-                continue
-            cleaned = re.split(r"[,/\\\n]", raw_term)[0].strip()
-            cleaned = cleaned.strip("'\"- ")
-            return cleaned
+        match = pattern.match(normalized_message)
+        if not match:
+            continue
+        raw_term = match.group("term")
+        if not raw_term:
+            continue
+        term_source = raw_term.translate(UNICODE_NORMALIZERS)
+        pieces = []
+        for part in re.split(r"[,\s]+", term_source):
+            cleaned = part.strip("'\"- ")
+            if cleaned:
+                pieces.append(cleaned)
+        if pieces:
+            return pieces[-2:]
     return None
 
 
@@ -145,11 +167,22 @@ def pick_reply_word(state: Dict[str, object], disallow: Optional[str] = None) ->
     block = set(used) | set(bot_used)
     if disallow:
         block.add(normalize_term(disallow))
-    for entry in LEXICON:
-        if entry.normalized not in block:
-            bot_used.add(entry.normalized)
-            return entry.term
-    return None
+    candidates = [entry for entry in LEXICON if entry.normalized not in block]
+    if not candidates:
+        return None
+    choice = random.choice(candidates)
+    bot_used.add(choice.normalized)
+    return choice.term
+
+
+def make_nice_try_response(state: Dict[str, object], disallow: Optional[str] = None) -> Dict[str, object]:
+    reply_word = pick_reply_word(state, disallow=disallow)
+    if reply_word:
+        response = f"Nice try, {reply_word}."
+    else:
+        response = "Nice try."
+    score = state.get("score", 0)
+    return {"reply": response, "score": score}
 
 
 @app.route("/")
@@ -177,26 +210,44 @@ def chat() -> object:
         return jsonify({"reply": "Fresh start. Hit me again.", "score": 0, "command": True})
 
     state = get_state()
-    term = extract_term(stripped)
-    if not term:
+    terms = extract_terms(stripped)
+    if not terms:
         return jsonify({"reply": "Use a friendly nickname so I can clap back.", "score": state.get("score", 0)})
+    processed_terms: List[tuple[str, str]] = []
+    seen_in_message = set()
+    violation_term: Optional[str] = None
 
-    normalized = normalize_term(term)
-    if normalized in state["used"]:
-        reply_word = pick_reply_word(state, disallow=term)
-        score = state.get("score", 0)
-        if reply_word:
-            response = f"You ruined it, {reply_word}! Score: {score}."
-        else:
-            response = f"You ruined it, but I'm out of comebacks. Score: {score}."
-        return jsonify({"reply": response, "score": score})
+    for raw_term in terms:
+        normalized = normalize_term(raw_term)
+        if not normalized:
+            continue
+        if normalized in seen_in_message:
+            violation_term = raw_term
+            break
+        seen_in_message.add(normalized)
+        if normalized not in LEXICON_LOOKUP:
+            violation_term = raw_term
+            break
+        if normalized in state["used"] or normalized in state["bot_used"]:
+            violation_term = raw_term
+            break
+        processed_terms.append((raw_term, normalized))
 
-    state["used"].add(normalized)
+    if violation_term:
+        return jsonify(make_nice_try_response(state, disallow=violation_term))
+
+    if not processed_terms:
+        return jsonify(make_nice_try_response(state))
+
+    for _, normalized in processed_terms:
+        state["used"].add(normalized)
+
     state["score"] = state.get("score", 0) + 1
-    reply_word = pick_reply_word(state, disallow=term)
+    reply_target = processed_terms[1][0] if len(processed_terms) > 1 else processed_terms[0][0]
+    reply_word = pick_reply_word(state, disallow=reply_target)
     if not reply_word:
         reply_word = "...nobody"
-    response = f"I'm not your {term.strip()}, {reply_word}."
+    response = f"I'm not your {reply_target.strip()}, {reply_word}."
     return jsonify({"reply": response, "score": state["score"]})
 
 

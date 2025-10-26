@@ -41,6 +41,15 @@ def normalize_term(term: str) -> str:
     return re.sub(r"\s+", " ", cleaned).strip()
 
 
+def append_score_suffix(message: str, score: int) -> str:
+    base = message.strip()
+    if not base:
+        base = "Ok."
+    if base[-1] not in ".!?":
+        base = f"{base}."
+    return f"{base} Score: {score}."
+
+
 def load_lexicon(path: str) -> List[WordEntry]:
     with open(path, "r", encoding="utf-8") as f:
         payload = json.load(f)
@@ -177,7 +186,13 @@ def chat() -> object:
 
     if lowered == "::reset":
         reset_state()
-        return jsonify({"reply": "Fresh start. Hit me again.", "score": 0, "command": True})
+        return jsonify(
+            {
+                "reply": append_score_suffix("Fresh start. Hit me again.", 0),
+                "score": 0,
+                "command": True,
+            }
+        )
 
     state = get_state()
     last_bot_word = state.get("last_bot_word")

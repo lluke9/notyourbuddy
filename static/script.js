@@ -1,33 +1,22 @@
 const chatWindow = document.getElementById('chat-window');
 const composer = document.getElementById('composer');
 const input = document.getElementById('chat-input');
-const scoreEl = document.getElementById('score');
+const scoreEl = document.getElementById('score-value');
 
-function createMessage(role, content, metaText) {
+function createMessage(role, content) {
   const wrapper = document.createElement('div');
   wrapper.classList.add('message', role);
 
   const bubble = document.createElement('div');
   bubble.classList.add('bubble');
-  if (content.includes('\n')) {
-    const pre = document.createElement('pre');
-    pre.textContent = content;
-    bubble.appendChild(pre);
-  } else {
-    bubble.textContent = content;
-  }
-
-  const meta = document.createElement('div');
-  meta.classList.add('meta');
-  meta.textContent = metaText;
+  bubble.textContent = content;
 
   wrapper.appendChild(bubble);
-  wrapper.appendChild(meta);
   return wrapper;
 }
 
-function pushMessage(role, content, metaText) {
-  const msg = createMessage(role, content, metaText);
+function pushMessage(role, content) {
+  const msg = createMessage(role, content);
   chatWindow.appendChild(msg);
   chatWindow.scrollTo({ top: chatWindow.scrollHeight, behavior: 'smooth' });
 }
@@ -39,7 +28,7 @@ composer.addEventListener('submit', async (event) => {
     return;
   }
 
-  pushMessage('user', text, 'you • challenger');
+  pushMessage('user', text);
   input.value = '';
 
   try {
@@ -58,10 +47,9 @@ composer.addEventListener('submit', async (event) => {
       scoreEl.textContent = data.score;
     }
 
-    const meta = data.command ? 'bot • secret stash' : 'bot • banter mode';
-    pushMessage('bot', data.reply || "...", meta);
+    pushMessage('reply', data.reply || '...');
   } catch (error) {
-    pushMessage('bot', "Server's taking a nap. Try again in a sec.", 'bot • offline?');
+    pushMessage('reply', 'Server error. Try again soon.');
     console.error(error);
   }
 });

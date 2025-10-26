@@ -56,69 +56,28 @@ def load_lexicon(path: str) -> List[WordEntry]:
 LEXICON: List[WordEntry] = load_lexicon(LEXICON_PATH)
 LEXICON_LOOKUP: Dict[str, WordEntry] = {entry.normalized: entry for entry in LEXICON}
 
-
-def build_patterns() -> List[Pattern[str]]:
-    raw_patterns = [
-        r"^\s*hey\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*hey there\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*heya\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*hiya\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*hi\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*hello\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*yo\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*yoo\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*yooo+\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*y'all\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*supp?\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*wass?up\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*what'?s up\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*greetings\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*salutations\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*good (?:morning|evening|afternoon|day)\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*ahoy\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*oi\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*oy\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*hey yo\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*listen\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*look here\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*alright\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*okay\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*dear\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*dearest\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*my\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*hey my\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*listen up\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*hear me\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*hear this\s+(?P<term>[\w'\- ]+?)\s*[!.?]*$",
-        r"^\s*i[' ]?m not your\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*i am not your\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*i[' ]?m not yo\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*i[' ]?m not ya\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*i[' ]?m not ur\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*im not your\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*im not yo\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*im not ya\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*im not ur\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*not your\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*not yo\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*not ya\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*not ur\s+(?P<term>[\w'\- ,]+?)\s*$",
-        r"^\s*no more\s+(?P<term>[\w'\- ]+?)\s*$",
-        r"^\s*forget it\s+(?P<term>[\w'\- ]+?)\s*$",
-        r"^\s*cut it out\s+(?P<term>[\w'\- ]+?)\s*$",
-        r"^\s*quit it\s+(?P<term>[\w'\- ]+?)\s*$",
-        r"^\s*drop it\s+(?P<term>[\w'\- ]+?)\s*$",
-        r"^\s*stop it\s+(?P<term>[\w'\- ]+?)\s*$",
-    ]
-    patterns = [re.compile(pat, re.IGNORECASE) for pat in raw_patterns]
-    return patterns
-
-
-INPUT_PATTERNS = build_patterns()
-
 SESSION_STATE: Dict[str, Dict[str, object]] = {}
 
 HIDDEN_COMMANDS = {"::list", "/list", "/words", "/ranked", "list please", "show list"}
+
+FOLLOWUP_PATTERNS: List[Pattern[str]] = [
+    re.compile(r"^\s*i\s*am\s+not\s+(?:your|yo|ya|ur)\s+(?P<body>[\w'\- ,]+?)\s*[.!?]*$", re.IGNORECASE),
+    re.compile(r"^\s*i[' ]?m\s+not\s+(?:your|yo|ya|ur)\s+(?P<body>[\w'\- ,]+?)\s*[.!?]*$", re.IGNORECASE),
+    re.compile(r"^\s*im\s+not\s+(?:your|yo|ya|ur)\s+(?P<body>[\w'\- ,]+?)\s*[.!?]*$", re.IGNORECASE),
+    re.compile(r"^\s*not\s+(?:your|yo|ya|ur)\s+(?P<body>[\w'\- ,]+?)\s*[.!?]*$", re.IGNORECASE),
+]
+
+WORD_FINDER = re.compile(r"[A-Za-z0-9'\-]+")
+
+
+def initial_state() -> Dict[str, object]:
+    return {
+        "used": set(),
+        "bot_used": set(),
+        "score": 0,
+        "last_bot_word": None,
+        "last_bot_display": None,
+    }
 
 
 def get_state() -> Dict[str, object]:
@@ -126,35 +85,45 @@ def get_state() -> Dict[str, object]:
     if not state_id:
         state_id = uuid.uuid4().hex
         session["state_id"] = state_id
-    state = SESSION_STATE.setdefault(state_id, {"used": set(), "bot_used": set(), "score": 0})
+    state = SESSION_STATE.setdefault(state_id, initial_state())
     # ensure sets exist (for reloader)
     if not isinstance(state.get("used"), set):
         state["used"] = set(state.get("used", []))
     if not isinstance(state.get("bot_used"), set):
         state["bot_used"] = set(state.get("bot_used", []))
+    state.setdefault("last_bot_word", None)
+    state.setdefault("last_bot_display", None)
     return state
 
 
 def reset_state() -> None:
     state_id = session.get("state_id")
     if state_id and state_id in SESSION_STATE:
-        SESSION_STATE[state_id] = {"used": set(), "bot_used": set(), "score": 0}
+        SESSION_STATE[state_id] = initial_state()
 
 
-def extract_terms(message: str) -> Optional[List[str]]:
-    for pattern in INPUT_PATTERNS:
+def extract_last_word(message: str) -> Optional[tuple[str, int]]:
+    matches = list(WORD_FINDER.finditer(message))
+    if not matches:
+        return None
+    last = matches[-1].group()
+    return last, len(matches)
+
+
+def parse_followup_terms(message: str) -> Optional[List[str]]:
+    for pattern in FOLLOWUP_PATTERNS:
         match = pattern.match(message)
         if not match:
             continue
-        raw_term = match.group("term")
-        if not raw_term:
+        body = match.group("body")
+        if not body:
             continue
         pieces = [
             part.strip("'\"- ")
-            for part in re.split(r"[,\s]+", raw_term)
+            for part in re.split(r"[,\s]+", body)
             if part.strip("'\"- ")
         ]
-        if pieces:
+        if len(pieces) >= 2:
             return pieces[:2]
     return None
 
@@ -173,14 +142,17 @@ def pick_reply_word(state: Dict[str, object], disallow: Optional[str] = None) ->
     return choice.term
 
 
-def make_nice_try_response(state: Dict[str, object], disallow: Optional[str] = None) -> Dict[str, object]:
+def make_nice_try_response(
+    state: Dict[str, object], disallow: Optional[str] = None, callout: Optional[str] = None
+) -> Dict[str, object]:
     reply_word = pick_reply_word(state, disallow=disallow)
     if reply_word:
         response = f"Nice try, {reply_word}."
     else:
         response = "Nice try."
-    score = state.get("score", 0)
-    return {"reply": response, "score": score}
+    if callout:
+        response = f"{response} I'm not your {callout.strip()}."
+    return {"reply": response, "score": 0}
 
 
 @app.route("/")
@@ -208,36 +180,66 @@ def chat() -> object:
         return jsonify({"reply": "Fresh start. Hit me again.", "score": 0, "command": True})
 
     state = get_state()
-    terms = extract_terms(stripped)
-    if not terms:
-        return jsonify({"reply": "Use a friendly nickname so I can clap back.", "score": state.get("score", 0)})
-    processed_terms = []
-    seen_in_message = set()
-    for raw_term in terms:
-        normalized = normalize_term(raw_term)
-        if not normalized:
-            continue
-        if normalized in seen_in_message:
-            return jsonify(make_nice_try_response(state, disallow=raw_term))
-        seen_in_message.add(normalized)
-        if normalized not in LEXICON_LOOKUP:
-            return jsonify(make_nice_try_response(state, disallow=raw_term))
-        if normalized in state["used"] or normalized in state["bot_used"]:
-            return jsonify(make_nice_try_response(state, disallow=raw_term))
-        processed_terms.append((raw_term, normalized))
+    last_bot_word = state.get("last_bot_word")
 
-    if not processed_terms:
-        return jsonify(make_nice_try_response(state))
-
-    for _, normalized in processed_terms:
+    if not last_bot_word:
+        extraction = extract_last_word(stripped)
+        if not extraction:
+            reset_state()
+            return jsonify({"reply": "Ok.", "score": 0})
+        last_word, word_count = extraction
+        normalized = normalize_term(last_word)
+        if not normalized or normalized not in LEXICON_LOOKUP:
+            fallback = "Hi" if word_count == 1 else "Ok."
+            reset_state()
+            return jsonify({"reply": fallback, "score": 0})
         state["used"].add(normalized)
+        state["score"] = 1
+        reply_word = pick_reply_word(state, disallow=last_word)
+        if not reply_word:
+            reply_word = "buddy"
+        state["last_bot_word"] = normalize_term(reply_word)
+        state["last_bot_display"] = reply_word
+        response = f"I'm not your {last_word.strip()}, {reply_word}."
+        return jsonify({"reply": response, "score": state["score"]})
 
+    terms = parse_followup_terms(stripped)
+    if not terms:
+        reset_state()
+        return jsonify({"reply": "Ok.", "score": 0})
+
+    word1_raw, word2_raw = terms
+    normalized_word1 = normalize_term(word1_raw)
+    normalized_word2 = normalize_term(word2_raw)
+
+    if not normalized_word1 or not normalized_word2:
+        reset_state()
+        return jsonify({"reply": "Ok.", "score": 0})
+
+    expected = state.get("last_bot_word")
+    if not expected or normalized_word1 != expected:
+        response = make_nice_try_response(state, disallow=word1_raw, callout=word1_raw)
+        reset_state()
+        return jsonify(response)
+
+    if normalized_word2 not in LEXICON_LOOKUP:
+        response = make_nice_try_response(state, disallow=word2_raw, callout=word2_raw)
+        reset_state()
+        return jsonify(response)
+
+    if normalized_word2 in state["used"] or normalized_word2 in state["bot_used"]:
+        response = make_nice_try_response(state, disallow=word2_raw, callout=word2_raw)
+        reset_state()
+        return jsonify(response)
+
+    state["used"].add(normalized_word2)
     state["score"] = state.get("score", 0) + 1
-    reply_target = processed_terms[1][0] if len(processed_terms) > 1 else processed_terms[0][0]
-    reply_word = pick_reply_word(state, disallow=reply_target)
+    reply_word = pick_reply_word(state, disallow=word2_raw)
     if not reply_word:
-        reply_word = "...nobody"
-    response = f"I'm not your {reply_target.strip()}, {reply_word}."
+        reply_word = "buddy"
+    state["last_bot_word"] = normalize_term(reply_word)
+    state["last_bot_display"] = reply_word
+    response = f"I'm not your {word2_raw.strip()}, {reply_word}."
     return jsonify({"reply": response, "score": state["score"]})
 
 
